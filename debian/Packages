@@ -37,21 +37,6 @@ Description: EMUC-B202 utilities
 
 Package: ros-humble-argparse
 Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 78
-Filename: ./ros-humble-argparse_1.0.0-0jammy_amd64.deb
-Size: 14870
-MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
-SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
-SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/argparse
-Description: Argument Parser for Modern C++
-
-Package: ros-humble-argparse
-Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 78
@@ -60,6 +45,21 @@ Size: 14864
 MD5sum: e9c97cbff03cdb78ed10b97edc486b30
 SHA1: b22547c46ea961213d2a81befb29a286ee0a6693
 SHA256: 40e0a9be336bb664359e3b209d72c0ff59753fe11f41c9d57dd6f5efb53c1a79
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-humble-argparse
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 78
+Filename: ./ros-humble-argparse_1.0.0-0jammy_amd64.deb
+Size: 14870
+MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
+SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
+SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -162,22 +162,6 @@ Description: Integration Services core
 
 Package: ros-humble-is-core
 Version: 1.0.1-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1514
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.1-0jammy_arm64.deb
-Size: 452880
-MD5sum: 83f564e7366517865647d726c4dc7f00
-SHA1: a5fa3b2e34189990d79a65ae13784d8acf6bb691
-SHA256: b1c827b190f99d5b970cdf4fffa4080678e347690115cce3a9323df76a7e4f07
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-humble-is-core
-Version: 1.0.1-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1666
@@ -193,16 +177,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.2-0jammy
+Version: 1.0.1-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1514
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.2-0jammy_arm64.deb
-Size: 452898
-MD5sum: b9d9daf78651307b2e873b03721a86bd
-SHA1: 6d3ce68a653d883ba006ff0f064388dba27f1146
-SHA256: 90f712942715b2a4f89d39bae9234dc4e50635c74d3ed78d4249a29377cc94ab
+Filename: ./ros-humble-is-core_1.0.1-0jammy_arm64.deb
+Size: 452880
+MD5sum: 83f564e7366517865647d726c4dc7f00
+SHA1: a5fa3b2e34189990d79a65ae13784d8acf6bb691
+SHA256: b1c827b190f99d5b970cdf4fffa4080678e347690115cce3a9323df76a7e4f07
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -225,16 +209,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.3-0jammy
+Version: 1.0.2-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1514
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.3-0jammy_arm64.deb
-Size: 452940
-MD5sum: 3acf9c2d72020174a32bda2ce59b658a
-SHA1: 26b616e79824d8bdfc652216ff46f6f9aed9d333
-SHA256: 47a9269c0278ccd7f09b0d99a507d418b00adcf02e610a15aff9f21e5292496c
+Filename: ./ros-humble-is-core_1.0.2-0jammy_arm64.deb
+Size: 452898
+MD5sum: b9d9daf78651307b2e873b03721a86bd
+SHA1: 6d3ce68a653d883ba006ff0f064388dba27f1146
+SHA256: 90f712942715b2a4f89d39bae9234dc4e50635c74d3ed78d4249a29377cc94ab
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -257,16 +241,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.4-0jammy
-Architecture: amd64
+Version: 1.0.3-0jammy
+Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1667
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.4-0jammy_amd64.deb
-Size: 492918
-MD5sum: ee28641b85bcef3f6e3aaf6c5146b14e
-SHA1: 964a03e7eeafb90f295e240bb6e70f3841c50ee9
-SHA256: a2d7a541b5443792b567f44aff93bde7579735884fa2119ef96a5ce8a6c86014
+Installed-Size: 1514
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.3-0jammy_arm64.deb
+Size: 452940
+MD5sum: 3acf9c2d72020174a32bda2ce59b658a
+SHA1: 26b616e79824d8bdfc652216ff46f6f9aed9d333
+SHA256: 47a9269c0278ccd7f09b0d99a507d418b00adcf02e610a15aff9f21e5292496c
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -283,6 +267,22 @@ Size: 452934
 MD5sum: cd42c2a9a7e004148329c1d63b6547d7
 SHA1: b55817f4cfd17395dc0017b02c8dc5aeda1cc8d5
 SHA256: c185b7329b6595e12d6828e5e23791930d54c4fb15115ef5fc600f09b2bbae4a
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-humble-is-core
+Version: 1.0.4-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1667
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.4-0jammy_amd64.deb
+Size: 492918
+MD5sum: ee28641b85bcef3f6e3aaf6c5146b14e
+SHA1: 964a03e7eeafb90f295e240bb6e70f3841c50ee9
+SHA256: a2d7a541b5443792b567f44aff93bde7579735884fa2119ef96a5ce8a6c86014
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -322,22 +322,6 @@ Description: Integration Services core
 
 Package: ros-humble-is-core
 Version: 1.0.6-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1667
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.6-0jammy_amd64.deb
-Size: 492922
-MD5sum: 611c99ba0b75bd3691a15b3a708730b4
-SHA1: 4797e924d51153d7debb53ceb474021a353149c4
-SHA256: d51329c7faceab5cb6e6e752b136dcfb0665d552350324e209cbabceb1b74e41
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-humble-is-core
-Version: 1.0.6-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1515
@@ -347,6 +331,22 @@ Size: 452934
 MD5sum: 6aa6d7563ad0faa0190a8e4496d8f752
 SHA1: 9afeb5c5d1788233e8abbd8eb012895cbc6a6ae4
 SHA256: 394294e9dc5456a6fd64c5cb85b9f1f64d5fd07e50fc56fd8036b6ab62728e64
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-humble-is-core
+Version: 1.0.6-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1667
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.6-0jammy_amd64.deb
+Size: 492922
+MD5sum: 611c99ba0b75bd3691a15b3a708730b4
+SHA1: 4797e924d51153d7debb53ceb474021a353149c4
+SHA256: d51329c7faceab5cb6e6e752b136dcfb0665d552350324e209cbabceb1b74e41
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -386,22 +386,6 @@ Description: Integration Services core
 
 Package: ros-humble-is-core
 Version: 1.0.8-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1515
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.8-0jammy_arm64.deb
-Size: 452950
-MD5sum: e9edb52fb5bad5136e4d5c17103b1685
-SHA1: 0d4fa782ae974faf73dfab8a97657d734dc36a5b
-SHA256: e084ed738258ab4d5bb7498019306808b47a19cbae6bf11c1315e9133694f92f
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-humble-is-core
-Version: 1.0.8-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1667
@@ -411,6 +395,22 @@ Size: 492946
 MD5sum: 9563b58c78c7cea94d7a0e779a69f921
 SHA1: 52de8f62174370482dca252ac2befd37d150e678
 SHA256: 78f4bda2b72bd014bb08ab18b5a2f318db119b4718526915dca9f301679f1b86
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-humble-is-core
+Version: 1.0.8-0jammy
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1515
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.8-0jammy_arm64.deb
+Size: 452950
+MD5sum: e9edb52fb5bad5136e4d5c17103b1685
+SHA1: 0d4fa782ae974faf73dfab8a97657d734dc36a5b
+SHA256: e084ed738258ab4d5bb7498019306808b47a19cbae6bf11c1315e9133694f92f
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -450,22 +450,6 @@ Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2
 Version: 1.1.0-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 467
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
-Filename: ./ros-humble-is-ros2_1.1.0-0jammy_amd64.deb
-Size: 119820
-MD5sum: cbd4c863048b19c0cc7d374e4f9afdae
-SHA1: cf358f297d6a01741dc577a9290de2223bfe6df2
-SHA256: ebe8a29fbab7eb4e07e0335dfc4767f3787996366e12872f48528c5013b959b6
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
-
-Package: ros-humble-is-ros2
-Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 439
@@ -475,6 +459,22 @@ Size: 111724
 MD5sum: 9ece7e1a4b9fb7e49d09df76d4a23248
 SHA1: 960bbd74055f90002823d75853ed100b95574ed9
 SHA256: 42c1152b0e7f292b6988c2da6334721465293598b72f1bde3aeee50f53e29e59
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
+Package: ros-humble-is-ros2
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 467
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
+Filename: ./ros-humble-is-ros2_1.1.0-0jammy_amd64.deb
+Size: 119820
+MD5sum: cbd4c863048b19c0cc7d374e4f9afdae
+SHA1: cf358f297d6a01741dc577a9290de2223bfe6df2
+SHA256: ebe8a29fbab7eb4e07e0335dfc4767f3787996366e12872f48528c5013b959b6
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -546,22 +546,6 @@ Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2
 Version: 1.1.3-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 514
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
-Filename: ./ros-humble-is-ros2_1.1.3-0jammy_amd64.deb
-Size: 128406
-MD5sum: 091b696f6c69b4ac0ac1461dff7fbefe
-SHA1: 60ff046f5632dc7e7f976763b1ab3afbc7e3fe73
-SHA256: d8728f8b20dd33aa18ebc20998b2e79f1468dc78e41c9f511b409f83c5e59f10
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
-
-Package: ros-humble-is-ros2
-Version: 1.1.3-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 486
@@ -571,6 +555,22 @@ Size: 120542
 MD5sum: 229f37ad63dfbbafb05104e34d439b67
 SHA1: 51e4fe28f7950fc35f0570dac99668ceaa0f30bc
 SHA256: a33275b7c9bb58ccb0f8cc5b647689d98ab334e7253d5a9d987eeb4e6a550585
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
+Package: ros-humble-is-ros2
+Version: 1.1.3-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 514
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
+Filename: ./ros-humble-is-ros2_1.1.3-0jammy_amd64.deb
+Size: 128406
+MD5sum: 091b696f6c69b4ac0ac1461dff7fbefe
+SHA1: 60ff046f5632dc7e7f976763b1ab3afbc7e3fe73
+SHA256: d8728f8b20dd33aa18ebc20998b2e79f1468dc78e41c9f511b409f83c5e59f10
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -642,22 +642,6 @@ Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-humble-is-ros2-mix-generator
 Version: 1.0.2-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 16
-Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
-Filename: ./ros-humble-is-ros2-mix-generator_1.0.2-0jammy_arm64.deb
-Size: 2038
-MD5sum: 30c8df514cb29eadc73f24ffd7958984
-SHA1: 07dc647f8744c41c598512b962c767641b8ea5b8
-SHA256: 89f03b1e5ed26c9aceaf23ab43f2fef4289579db790f411f28559ef41124b716
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
-Description: Integration Service System Handle for ROS 2 (mix generator)
-
-Package: ros-humble-is-ros2-mix-generator
-Version: 1.0.2-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 16
@@ -672,20 +656,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
-Package: ros-humble-launch-ext
-Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 70
-Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.0.0-0jammy_amd64.deb
-Size: 10034
-MD5sum: 8ace292083d9a81bdfad53e20e63e616
-SHA1: 7d89b1fb1a9e74894054a59a9e4a082f9accb550
-SHA256: 98f76f8f78c4f2327fbe5e432e58ce8f1aace02c15c418e2789e9ca8a4bf7151
+Package: ros-humble-is-ros2-mix-generator
+Version: 1.0.2-0jammy
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 16
+Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
+Filename: ./ros-humble-is-ros2-mix-generator_1.0.2-0jammy_arm64.deb
+Size: 2038
+MD5sum: 30c8df514cb29eadc73f24ffd7958984
+SHA1: 07dc647f8744c41c598512b962c767641b8ea5b8
+SHA256: 89f03b1e5ed26c9aceaf23ab43f2fef4289579db790f411f28559ef41124b716
 Section: misc
 Priority: optional
-Description: Some extras for launch tooling.
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
+Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-humble-launch-ext
 Version: 1.0.0-0jammy
@@ -698,6 +683,21 @@ Size: 10022
 MD5sum: f530d225c292c9bf1e65ecb80430887e
 SHA1: a1790a7b6d05a576675305bd6c8a0106160f6030
 SHA256: ab65512875a0f0745a665da3c04c36d462e25d357238855f7499a1e381489ac0
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-humble-launch-ext
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 70
+Depends: ros-humble-launch
+Filename: ./ros-humble-launch-ext_1.0.0-0jammy_amd64.deb
+Size: 10034
+MD5sum: 8ace292083d9a81bdfad53e20e63e616
+SHA1: 7d89b1fb1a9e74894054a59a9e4a082f9accb550
+SHA256: 98f76f8f78c4f2327fbe5e432e58ce8f1aace02c15c418e2789e9ca8a4bf7151
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -734,21 +734,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
 Version: 1.2.0-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 77
-Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.2.0-0jammy_arm64.deb
-Size: 11594
-MD5sum: 8e654ce1046bcdac6364ef67d2115f82
-SHA1: 4b8b74e12969c5b6f15860649705d4c2ff1b2e06
-SHA256: f56968046ffa5db409f820ca3d51c31ad73192c11fb7988090b4fe558115f2a4
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-humble-launch-ext
-Version: 1.2.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 77
@@ -763,16 +748,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
-Version: 1.3.0-0jammy
-Architecture: amd64
+Version: 1.2.0-0jammy
+Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 83
+Installed-Size: 77
 Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.3.0-0jammy_amd64.deb
-Size: 12644
-MD5sum: dd0c8c4a4ad2fe38e816967ee3522e45
-SHA1: 385212f3571e5216e05f86a0b1205490a3e0c492
-SHA256: 84ddaa2fd398b7eb52dd4d602f11a8ab8c92f842abd6bee43866f4b976841226
+Filename: ./ros-humble-launch-ext_1.2.0-0jammy_arm64.deb
+Size: 11594
+MD5sum: 8e654ce1046bcdac6364ef67d2115f82
+SHA1: 4b8b74e12969c5b6f15860649705d4c2ff1b2e06
+SHA256: f56968046ffa5db409f820ca3d51c31ad73192c11fb7988090b4fe558115f2a4
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -788,6 +773,21 @@ Size: 12626
 MD5sum: e1403ae64b5a5c164cebd15278c9eacc
 SHA1: 618d16421a63a0800d60cefe24ba3134bf7f5e8e
 SHA256: f1cc2d34bdc0df8816228aaf4964713b19f58c6cc6258e6e7cca7d298949d0cf
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-humble-launch-ext
+Version: 1.3.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 83
+Depends: ros-humble-launch
+Filename: ./ros-humble-launch-ext_1.3.0-0jammy_amd64.deb
+Size: 12644
+MD5sum: dd0c8c4a4ad2fe38e816967ee3522e45
+SHA1: 385212f3571e5216e05f86a0b1205490a3e0c492
+SHA256: 84ddaa2fd398b7eb52dd4d602f11a8ab8c92f842abd6bee43866f4b976841226
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -974,21 +974,6 @@ Description: Message and service data structures for interacting with Gazebo fro
 
 Package: ros-humble-ros2-bt-utils
 Version: 1.0.0-0jammy
-Architecture: arm64
-Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
-Installed-Size: 97
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
-Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_arm64.deb
-Size: 16318
-MD5sum: 11a5d0f04bd136c537305d3ca2b145eb
-SHA1: 6acc7409cde947f05e7a6ccc8ca1a1fb86e4af25
-SHA256: e02df1099e1e0c6efea13a1b9eea41d66e9cf3d181856667c4395b29c29535c9
-Section: misc
-Priority: optional
-Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
-
-Package: ros-humble-ros2-bt-utils
-Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
 Installed-Size: 101
@@ -998,6 +983,21 @@ Size: 16432
 MD5sum: 7064b50e2da5dde649fa7d6c7191222e
 SHA1: ae84facf9f2435b18434c754d048f3174314178c
 SHA256: def96aeff4b16f02bafd7d55ac0b05e7dbff00323d5e95d255380c2fda39463c
+Section: misc
+Priority: optional
+Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
+
+Package: ros-humble-ros2-bt-utils
+Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
+Installed-Size: 97
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
+Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_arm64.deb
+Size: 16318
+MD5sum: 11a5d0f04bd136c537305d3ca2b145eb
+SHA1: 6acc7409cde947f05e7a6ccc8ca1a1fb86e4af25
+SHA256: e02df1099e1e0c6efea13a1b9eea41d66e9cf3d181856667c4395b29c29535c9
 Section: misc
 Priority: optional
 Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
@@ -1164,22 +1164,6 @@ Description: The core rosbridge package, responsible for interpreting JSON andpe
 
 Package: ros-humble-rosbridge-library
 Version: 2.0.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 226
-Depends: python3-bson, python3-pil, ros-humble-rclpy, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-rosbridge-library_2.0.0-0jammy_amd64.deb
-Size: 36124
-MD5sum: 9d1ee367417730e4a185cce815c2987e
-SHA1: 737f3d2851e987a892b74b34befe26d6ce76d3ee
-SHA256: 39515306b7fe5bcc2327558c82af25a6bcb603039c45b858dce419fb9badfab1
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_library
-Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
-
-Package: ros-humble-rosbridge-library
-Version: 2.0.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 226
@@ -1189,6 +1173,22 @@ Size: 36114
 MD5sum: 8f667349e81b4a6e39d0547c4ec5c381
 SHA1: 8616d5f588d47b1a44f00580b82be11cfc4527e8
 SHA256: a288489817906eff42c4f4753cd023140876abf931a44a59737d679e3822394d
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
+
+Package: ros-humble-rosbridge-library
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 226
+Depends: python3-bson, python3-pil, ros-humble-rclpy, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-library_2.0.0-0jammy_amd64.deb
+Size: 36124
+MD5sum: 9d1ee367417730e4a185cce815c2987e
+SHA1: 737f3d2851e987a892b74b34befe26d6ce76d3ee
+SHA256: 39515306b7fe5bcc2327558c82af25a6bcb603039c45b858dce419fb9badfab1
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -1211,21 +1211,6 @@ Description: Package containing message files
 
 Package: ros-humble-rosbridge-msgs
 Version: 2.0.0-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
-Installed-Size: 526
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-rosbridge-msgs_2.0.0-0jammy_amd64.deb
-Size: 48524
-MD5sum: 5110fee316bef47c69ce47880d16fc33
-SHA1: 5b4258822876addae287e7acec103daf36b42714
-SHA256: d2932bfdf855daa896e939078072384c4270906a1ed9fc6cf79afe11aea272e7
-Section: misc
-Priority: optional
-Description: Package containing message files
-
-Package: ros-humble-rosbridge-msgs
-Version: 2.0.0-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
 Installed-Size: 470
@@ -1235,6 +1220,21 @@ Size: 48146
 MD5sum: a8bdec72692f30b30c3003d9275e144b
 SHA1: 133635f2b4173765c98cd1bf2e27034b13a5b763
 SHA256: 75fef638f579a5807f81484a2d5770b16034ae2248d346883f0a3b2b6c0658aa
+Section: misc
+Priority: optional
+Description: Package containing message files
+
+Package: ros-humble-rosbridge-msgs
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
+Installed-Size: 526
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-msgs_2.0.0-0jammy_amd64.deb
+Size: 48524
+MD5sum: 5110fee316bef47c69ce47880d16fc33
+SHA1: 5b4258822876addae287e7acec103daf36b42714
+SHA256: d2932bfdf855daa896e939078072384c4270906a1ed9fc6cf79afe11aea272e7
 Section: misc
 Priority: optional
 Description: Package containing message files
@@ -1389,22 +1389,6 @@ Description: Rosbridge provides a JSON API to ROS functionality for non-ROS prog
 
 Package: ros-humble-rosbridge-test-msgs
 Version: 1.0.0-0jammy
-Architecture: arm64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 3493
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
-Filename: ./ros-humble-rosbridge-test-msgs_1.0.0-0jammy_arm64.deb
-Size: 200792
-MD5sum: 0eaea90cfaf98d8d3bcdee737e572520
-SHA1: 2f27b071b86cc877cee39fc94feacdfaf0af31df
-SHA256: ab28d0a35744a92f42ef07ea5f03747febcf1311be82356d8e6b87c042b8541f
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_library
-Description: Message and service definitions used in internal tests for rosbridge packages.
-
-Package: ros-humble-rosbridge-test-msgs
-Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 3546
@@ -1420,16 +1404,16 @@ Homepage: http://ros.org/wiki/rosbridge_library
 Description: Message and service definitions used in internal tests for rosbridge packages.
 
 Package: ros-humble-rosbridge-test-msgs
-Version: 2.0.0-0jammy
+Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 3493
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
-Filename: ./ros-humble-rosbridge-test-msgs_2.0.0-0jammy_arm64.deb
-Size: 200552
-MD5sum: 1e97a97de655607db1a8489b676ae248
-SHA1: a17d31adb7b6f63e95e5c6d7179baa0d0eb6061b
-SHA256: 9858577a2478edb586a9bdd46018f754dc69303c2a812cf82b7fe7fdc3941ce6
+Filename: ./ros-humble-rosbridge-test-msgs_1.0.0-0jammy_arm64.deb
+Size: 200792
+MD5sum: 0eaea90cfaf98d8d3bcdee737e572520
+SHA1: 2f27b071b86cc877cee39fc94feacdfaf0af31df
+SHA256: ab28d0a35744a92f42ef07ea5f03747febcf1311be82356d8e6b87c042b8541f
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -1446,6 +1430,22 @@ Size: 202782
 MD5sum: 3aa8593d3ace10f544089a566ffdaa2c
 SHA1: ba3a1ffa5e6b544714f40a6a91a0629ccf3d77cd
 SHA256: b08b3fbce6ea29b366c15c6beda8aef50086b14152945041a6018f95866ccce3
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
+Package: ros-humble-rosbridge-test-msgs
+Version: 2.0.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 3493
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-rosbridge-test-msgs_2.0.0-0jammy_arm64.deb
+Size: 200552
+MD5sum: 1e97a97de655607db1a8489b676ae248
+SHA1: a17d31adb7b6f63e95e5c6d7179baa0d0eb6061b
+SHA256: 9858577a2478edb586a9bdd46018f754dc69303c2a812cf82b7fe7fdc3941ce6
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -1543,21 +1543,6 @@ Description: Argument Parser for Modern C++
 
 Package: ros-iron-argparse
 Version: 1.1.1-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 82
-Filename: ./ros-iron-argparse_1.1.1-0jammy_arm64.deb
-Size: 15348
-MD5sum: dd78bc57b0ed2772e08b941a553d3ad7
-SHA1: 84cfd0866f6daf7880fb702e8988cc34cc719f5f
-SHA256: a650e27ca374c64edd2c6af03a428a72f104928410807d0ded2f3f3ceb8e8d9c
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/argparse
-Description: Argument Parser for Modern C++
-
-Package: ros-iron-argparse
-Version: 1.1.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 82
@@ -1566,6 +1551,21 @@ Size: 15334
 MD5sum: deb07424486f21315f457904a51c001e
 SHA1: d8ca1c268e750084ced3279ff610d8fe92e19ad4
 SHA256: 55102f98bc9824d7435c768bf93b9b02561cb09e9aec84189bd0003bdf480f6c
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-iron-argparse
+Version: 1.1.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 82
+Filename: ./ros-iron-argparse_1.1.1-0jammy_arm64.deb
+Size: 15348
+MD5sum: dd78bc57b0ed2772e08b941a553d3ad7
+SHA1: 84cfd0866f6daf7880fb702e8988cc34cc719f5f
+SHA256: a650e27ca374c64edd2c6af03a428a72f104928410807d0ded2f3f3ceb8e8d9c
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -1589,22 +1589,6 @@ Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-iron-canary
 Version: 1.1.1-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 53
-Depends: libasio-dev, libboost-system-dev
-Filename: ./ros-iron-canary_1.1.1-0jammy_amd64.deb
-Size: 8068
-MD5sum: 926df5f8916a234176d62e8afc8b6b94
-SHA1: eafb0482f7c06c362b074e6a22b3ac0bbf96ec3c
-SHA256: 9cdfa7a954427681eae1c0c649d6f180f36aa53bd2307ff3a1b405b491b73ec7
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/canary
-Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
-
-Package: ros-iron-canary
-Version: 1.1.1-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 53
@@ -1619,21 +1603,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
-Package: ros-iron-diagnostic-aggregator
-Version: 10.0.1-0jammy
+Package: ros-iron-canary
+Version: 1.1.1-0jammy
 Architecture: amd64
-Maintainer: Austin Hendrix <namniart@gmail.com>
-Installed-Size: 1431
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
-Filename: ./ros-iron-diagnostic-aggregator_10.0.1-0jammy_amd64.deb
-Size: 330690
-MD5sum: a1cd86b2af1ecc1c3ae51cc0f64a00ac
-SHA1: 03db53eee1e31e1614ddb7bc7579bd1e68264fdb
-SHA256: 6d231f1df94466a2991fd8c05d4641d48aa12da92cc8d2c2530b653086ef2b59
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-iron-canary_1.1.1-0jammy_amd64.deb
+Size: 8068
+MD5sum: 926df5f8916a234176d62e8afc8b6b94
+SHA1: eafb0482f7c06c362b074e6a22b3ac0bbf96ec3c
+SHA256: 9cdfa7a954427681eae1c0c649d6f180f36aa53bd2307ff3a1b405b491b73ec7
 Section: misc
 Priority: optional
-Homepage: http://www.ros.org/wiki/diagnostic_aggregator
-Description: diagnostic_aggregator
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-iron-diagnostic-aggregator
 Version: 10.0.1-0jammy
@@ -1646,6 +1630,22 @@ Size: 300766
 MD5sum: 518503465eb3a5f66694805cafe1b1fa
 SHA1: 326e82df471aef96e7d9aca22b1d8789f58fa95c
 SHA256: edb2698469cfbe2973d318ae8ba961f6a30b373986310aa3862696dff8096ad5
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
+Package: ros-iron-diagnostic-aggregator
+Version: 10.0.1-0jammy
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1431
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
+Filename: ./ros-iron-diagnostic-aggregator_10.0.1-0jammy_amd64.deb
+Size: 330690
+MD5sum: a1cd86b2af1ecc1c3ae51cc0f64a00ac
+SHA1: 03db53eee1e31e1614ddb7bc7579bd1e68264fdb
+SHA256: 6d231f1df94466a2991fd8c05d4641d48aa12da92cc8d2c2530b653086ef2b59
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -1765,22 +1765,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
 Version: 10.3.0-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3079
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.3.0-0jammy_amd64.deb
-Size: 827766
-MD5sum: e0571f076e360312d279bb890eaf7422
-SHA1: fb3ac9faf232f39f8d53a6f1b24cc3e0581b0f29
-SHA256: efc8e1d8a30e88fc8ab74612719195a2bf668cf42d348ed14b96f9b716077f94
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-iron-foxglove-bridge
-Version: 10.3.0-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 2738
@@ -1790,6 +1774,22 @@ Size: 760370
 MD5sum: df726a80ae4801d4c084910da04778f4
 SHA1: aa7a114dd709881fbd634106c1c1f36aad342610
 SHA256: 9948c7303bcaf629f2d1ce77ee53fa0ac8010964afaccdad5169dac66942da51
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-iron-foxglove-bridge
+Version: 10.3.0-0jammy
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3079
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.3.0-0jammy_amd64.deb
+Size: 827766
+MD5sum: e0571f076e360312d279bb890eaf7422
+SHA1: fb3ac9faf232f39f8d53a6f1b24cc3e0581b0f29
+SHA256: efc8e1d8a30e88fc8ab74612719195a2bf668cf42d348ed14b96f9b716077f94
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -1829,22 +1829,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
 Version: 10.5.0-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3115
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.5.0-0jammy_amd64.deb
-Size: 841906
-MD5sum: c64b06dad0d192bd4df9faa13620fae5
-SHA1: dae7d9ba0fa212bec411bb321cf5df00ce0486bd
-SHA256: 9fc8ec67ed8781ff36f0cec860138cd11d66db80fd74a09e3218b4c0b37cff18
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-iron-foxglove-bridge
-Version: 10.5.0-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 2771
@@ -1860,16 +1844,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
-Version: 10.5.1-0jammy
-Architecture: arm64
+Version: 10.5.0-0jammy
+Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 2779
+Installed-Size: 3115
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.5.1-0jammy_arm64.deb
-Size: 776734
-MD5sum: bb483cfcc8da2ae76e5d7fb60279e36b
-SHA1: 06aaa9dca0940eac1e15b6ba629887b8a3705d9c
-SHA256: 770e69def573fe515d72afe3652bba7feca572750eb8a6986cba05cdcbd0ba01
+Filename: ./ros-iron-foxglove-bridge_10.5.0-0jammy_amd64.deb
+Size: 841906
+MD5sum: c64b06dad0d192bd4df9faa13620fae5
+SHA1: dae7d9ba0fa212bec411bb321cf5df00ce0486bd
+SHA256: 9fc8ec67ed8781ff36f0cec860138cd11d66db80fd74a09e3218b4c0b37cff18
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -1886,6 +1870,22 @@ Size: 841826
 MD5sum: 7b60d6bcbdc014611fb95358ef997796
 SHA1: 9234573954e2a9f796c0f0556a120b5522cb5ede
 SHA256: b9bebdbf3ace9abeb05f82d0664afedfde870e2d17a8ffe51005fab334344af4
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-iron-foxglove-bridge
+Version: 10.5.1-0jammy
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 2779
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.5.1-0jammy_arm64.deb
+Size: 776734
+MD5sum: bb483cfcc8da2ae76e5d7fb60279e36b
+SHA1: 06aaa9dca0940eac1e15b6ba629887b8a3705d9c
+SHA256: 770e69def573fe515d72afe3652bba7feca572750eb8a6986cba05cdcbd0ba01
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -1957,22 +1957,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
 Version: 10.5.4-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3120
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.5.4-0jammy_amd64.deb
-Size: 841544
-MD5sum: f4e021c4c5253cba3d224280280d9802
-SHA1: f9f98694835153eaa7550237a795ab31d9bcf54b
-SHA256: 41470a777c49445801967a6107a55a9e204cda20669c982049b520cb0f2b2f79
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-iron-foxglove-bridge
-Version: 10.5.4-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 2784
@@ -1988,16 +1972,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
-Version: 10.5.5-0jammy
+Version: 10.5.4-0jammy
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3136
+Installed-Size: 3120
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.5.5-0jammy_amd64.deb
-Size: 847374
-MD5sum: e83fa26b728486be54006098d55d52cd
-SHA1: 89f1dc08d40e65b7e04831cb4e63345c55f911a3
-SHA256: 8ef20139d67df795091eff0d928507e227a24002b5440bc659721fd90ae4d7aa
+Filename: ./ros-iron-foxglove-bridge_10.5.4-0jammy_amd64.deb
+Size: 841544
+MD5sum: f4e021c4c5253cba3d224280280d9802
+SHA1: f9f98694835153eaa7550237a795ab31d9bcf54b
+SHA256: 41470a777c49445801967a6107a55a9e204cda20669c982049b520cb0f2b2f79
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -2020,16 +2004,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-iron-foxglove-bridge
-Version: 10.5.7-0jammy
-Architecture: arm64
+Version: 10.5.5-0jammy
+Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 2792
+Installed-Size: 3136
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
-Filename: ./ros-iron-foxglove-bridge_10.5.7-0jammy_arm64.deb
-Size: 769716
-MD5sum: 4080106ac38a68c930fcb7e91bf54099
-SHA1: 9d4c139fe78b88095ffebb57e6dc9648b75de5d0
-SHA256: 2066ecbc76385d82e7b1766f9dca673a4933504e1df59003d9fa7eb51a511ce3
+Filename: ./ros-iron-foxglove-bridge_10.5.5-0jammy_amd64.deb
+Size: 847374
+MD5sum: e83fa26b728486be54006098d55d52cd
+SHA1: 89f1dc08d40e65b7e04831cb4e63345c55f911a3
+SHA256: 8ef20139d67df795091eff0d928507e227a24002b5440bc659721fd90ae4d7aa
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -2046,6 +2030,22 @@ Size: 821510
 MD5sum: 03b55505614934cafac73999fa213ca8
 SHA1: fce61666a07200587fe195a91877c2e0b2754e4d
 SHA256: d0c0bad2a4781ee030a811a618903c041d77cc066c257916fcdd2d1e958ff7ec
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-iron-foxglove-bridge
+Version: 10.5.7-0jammy
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 2792
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.5.7-0jammy_arm64.deb
+Size: 769716
+MD5sum: 4080106ac38a68c930fcb7e91bf54099
+SHA1: 9d4c139fe78b88095ffebb57e6dc9648b75de5d0
+SHA256: 2066ecbc76385d82e7b1766f9dca673a4933504e1df59003d9fa7eb51a511ce3
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -2113,22 +2113,6 @@ Description: Example usage of generate_parameter_library for a python module
 
 Package: ros-iron-is-core
 Version: 1.1.0-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1554
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-iron-is-core_1.1.0-0jammy_amd64.deb
-Size: 455746
-MD5sum: 37f69e346a7191641aff8bfbfed4f80c
-SHA1: abcc80355fb2c502a02fc2dad31a13b71f3005ce
-SHA256: 249d056dfc9d8efd67b58c8738982285d87ba0b8349a644e424174be38ed2f01
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-iron-is-core
-Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1398
@@ -2144,16 +2128,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-iron-is-core
-Version: 1.1.1-0jammy
-Architecture: arm64
+Version: 1.1.0-0jammy
+Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1398
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-iron-is-core_1.1.1-0jammy_arm64.deb
-Size: 412486
-MD5sum: b7194253c1600aef694c0ebf0bcc4d71
-SHA1: 0979fc04b933048808b0627b924d3d3cd3a2bdf9
-SHA256: bcfd1a9a9bfa722be1a8ed3f9a857189baf9f88a16a68b0900207db5e0fa32cf
+Installed-Size: 1554
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-iron-is-core_1.1.0-0jammy_amd64.deb
+Size: 455746
+MD5sum: 37f69e346a7191641aff8bfbfed4f80c
+SHA1: abcc80355fb2c502a02fc2dad31a13b71f3005ce
+SHA256: 249d056dfc9d8efd67b58c8738982285d87ba0b8349a644e424174be38ed2f01
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -2170,6 +2154,22 @@ Size: 455786
 MD5sum: efb475f2c558a17c2e96b503014f6da3
 SHA1: 12a81029a220187cb4be2d2b347cb35e5e693e7e
 SHA256: 6a18da5f69d3c28f800c3854abdab2bf9a98d0e85f69ca2ec1d57a2f07e59627
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-iron-is-core
+Version: 1.1.1-0jammy
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1398
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-iron-is-core_1.1.1-0jammy_arm64.deb
+Size: 412486
+MD5sum: b7194253c1600aef694c0ebf0bcc4d71
+SHA1: 0979fc04b933048808b0627b924d3d3cd3a2bdf9
+SHA256: bcfd1a9a9bfa722be1a8ed3f9a857189baf9f88a16a68b0900207db5e0fa32cf
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -2209,22 +2209,6 @@ Description: Integration Services core
 
 Package: ros-iron-is-ros2
 Version: 1.2.0-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 420
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-is-core, ros-iron-rclcpp, ros-iron-xtypes
-Filename: ./ros-iron-is-ros2_1.2.0-0jammy_arm64.deb
-Size: 105906
-MD5sum: fb42af2d9f8a668722b7fd6b52cbdd2d
-SHA1: 1a935308f3131eccb62348d38971108fb2eff44b
-SHA256: 59e5677f2521100a1c08b47986b46513a01eb4252dee238f1b0b0ab502f6973f
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
-
-Package: ros-iron-is-ros2
-Version: 1.2.0-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 444
@@ -2240,16 +2224,16 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-sup
 Description: Integration Service System Handle for ROS 2
 
 Package: ros-iron-is-ros2
-Version: 1.2.1-0jammy
+Version: 1.2.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 421
+Installed-Size: 420
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-is-core, ros-iron-rclcpp, ros-iron-xtypes
-Filename: ./ros-iron-is-ros2_1.2.1-0jammy_arm64.deb
-Size: 105916
-MD5sum: f8c4a32bdec3eb6dc0925299863cb75e
-SHA1: 9ab56d98fc9d690313d346ac934ed5dad0664089
-SHA256: 2edec69fd85f140134cd31c9ff573aba63be0e09a08536f9c6984b99e19908ce
+Filename: ./ros-iron-is-ros2_1.2.0-0jammy_arm64.deb
+Size: 105906
+MD5sum: fb42af2d9f8a668722b7fd6b52cbdd2d
+SHA1: 1a935308f3131eccb62348d38971108fb2eff44b
+SHA256: 59e5677f2521100a1c08b47986b46513a01eb4252dee238f1b0b0ab502f6973f
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -2266,6 +2250,22 @@ Size: 112434
 MD5sum: fe14a301713257d3ce0bfb00813c6524
 SHA1: 87ceaeadccb3e816d59d4142cdac922bcbc0a75c
 SHA256: cc087b78ba3de44b428a61699436fa63b949a26b82506c903095522a989ead00
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
+Package: ros-iron-is-ros2
+Version: 1.2.1-0jammy
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 421
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-is-core, ros-iron-rclcpp, ros-iron-xtypes
+Filename: ./ros-iron-is-ros2_1.2.1-0jammy_arm64.deb
+Size: 105916
+MD5sum: f8c4a32bdec3eb6dc0925299863cb75e
+SHA1: 9ab56d98fc9d690313d346ac934ed5dad0664089
+SHA256: 2edec69fd85f140134cd31c9ff573aba63be0e09a08536f9c6984b99e19908ce
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -2337,21 +2337,6 @@ Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-iron-launch-ext
 Version: 1.10.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 222
-Depends: gitpython, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.10.0-0jammy_amd64.deb
-Size: 42286
-MD5sum: 4b2556d4be36d945f0d0f167f8db0115
-SHA1: f3c071d2b4ef881b8ba8731e6c47f7241972dce7
-SHA256: ad913f51f20b030c07e0844e5b08cfc24b600383457b151813127d54dd7e8acf
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.10.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 222
@@ -2366,16 +2351,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.10.1-0jammy
-Architecture: arm64
+Version: 1.10.0-0jammy
+Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 222
-Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.10.1-0jammy_arm64.deb
-Size: 42260
-MD5sum: bae605553f9d903795afc1584972f104
-SHA1: 7728c08cac4b63107b578573991024b26859c839
-SHA256: 1e0345b134e8383e0afa9bc051b0861730db811142c436ead24b93fbcfd46284
+Depends: gitpython, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.10.0-0jammy_amd64.deb
+Size: 42286
+MD5sum: 4b2556d4be36d945f0d0f167f8db0115
+SHA1: f3c071d2b4ef881b8ba8731e6c47f7241972dce7
+SHA256: ad913f51f20b030c07e0844e5b08cfc24b600383457b151813127d54dd7e8acf
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2391,6 +2376,21 @@ Size: 42262
 MD5sum: c7eb6dd4dc966cf4cb4337450d5be3ba
 SHA1: 4ed485b5bfd877a2a913aab3fa9e3867c917b79c
 SHA256: 2bf81bf51a63e769983281b265649464d5dcb71d9a2af6fef40defc84bcc385c
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.10.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 222
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.10.1-0jammy_arm64.deb
+Size: 42260
+MD5sum: bae605553f9d903795afc1584972f104
+SHA1: 7728c08cac4b63107b578573991024b26859c839
+SHA256: 1e0345b134e8383e0afa9bc051b0861730db811142c436ead24b93fbcfd46284
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2532,21 +2532,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.12.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 223
-Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.12.0-0jammy_amd64.deb
-Size: 42820
-MD5sum: e0c3e7ffb556a9aa784116f8aaf4a07b
-SHA1: e83a8c3c5b9a7d16ed70c50e0d6ba6dea5b01cfc
-SHA256: e9763c6615eab55a22e4726d16674691baf5800fd696161c4c1f59ca300e5e0c
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.12.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 223
@@ -2561,16 +2546,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.12.1-0jammy
+Version: 1.12.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 226
+Installed-Size: 223
 Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.12.1-0jammy_amd64.deb
-Size: 43386
-MD5sum: db82f3af2fb0a5e0df26c3f112e48f2a
-SHA1: 24fa73d9280046aa254760f188282c276dc61aba
-SHA256: 0fd831a93d9e2789559b7e2b8220cfff34da405e845a264e3453be5f6bd40b42
+Filename: ./ros-iron-launch-ext_1.12.0-0jammy_amd64.deb
+Size: 42820
+MD5sum: e0c3e7ffb556a9aa784116f8aaf4a07b
+SHA1: e83a8c3c5b9a7d16ed70c50e0d6ba6dea5b01cfc
+SHA256: e9763c6615eab55a22e4726d16674691baf5800fd696161c4c1f59ca300e5e0c
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2591,16 +2576,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.13.0-0jammy
+Version: 1.12.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 266
+Installed-Size: 226
 Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.13.0-0jammy_amd64.deb
-Size: 49518
-MD5sum: 40f9119b01b3f4325f33be49626bbfa5
-SHA1: 3081079493e29dd3cc497b9ca71db5cdde479cca
-SHA256: f3e0da3080b39285535ebc0a0d1a94492ec438b0d632b072bbde483377ef563c
+Filename: ./ros-iron-launch-ext_1.12.1-0jammy_amd64.deb
+Size: 43386
+MD5sum: db82f3af2fb0a5e0df26c3f112e48f2a
+SHA1: 24fa73d9280046aa254760f188282c276dc61aba
+SHA256: 0fd831a93d9e2789559b7e2b8220cfff34da405e845a264e3453be5f6bd40b42
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2616,6 +2601,21 @@ Size: 49522
 MD5sum: 9694e84efc5782ca13deb31fa169d319
 SHA1: 1faaba0b0ab059cb906ef1bab336a13724a74d86
 SHA256: f61ec0918f5d7b9f74a2ad8ae438fd18c26100649c041ab3367c337aa1418dfe
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.13.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 266
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.13.0-0jammy_amd64.deb
+Size: 49518
+MD5sum: 40f9119b01b3f4325f33be49626bbfa5
+SHA1: 3081079493e29dd3cc497b9ca71db5cdde479cca
+SHA256: f3e0da3080b39285535ebc0a0d1a94492ec438b0d632b072bbde483377ef563c
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2637,21 +2637,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.13.2-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 266
-Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.13.2-0jammy_amd64.deb
-Size: 49518
-MD5sum: 8fd918093c649ff9172e14802d2093a3
-SHA1: e6e21f0f593788409d8a0f7acf615dad7bfce81d
-SHA256: e9f6b8a4a01b4fa8bdedc0366d4a167a94571149d7067855032a893b1ff03492
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.13.2-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 266
@@ -2661,6 +2646,21 @@ Size: 49506
 MD5sum: cac5be1411fdd076d015a30709be0159
 SHA1: c71d08247439627ae7245bc8fc5d964242384ab4
 SHA256: c397c4a1511f1d61fb9e04866722682a56b8cd3032b5427a101856b198edcb01
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.13.2-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 266
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.13.2-0jammy_amd64.deb
+Size: 49518
+MD5sum: 8fd918093c649ff9172e14802d2093a3
+SHA1: e6e21f0f593788409d8a0f7acf615dad7bfce81d
+SHA256: e9f6b8a4a01b4fa8bdedc0366d4a167a94571149d7067855032a893b1ff03492
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2697,21 +2697,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.14.1-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 270
-Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.14.1-0jammy_arm64.deb
-Size: 50686
-MD5sum: 8379da594a1cfe290d2f15f2704c5e91
-SHA1: 06af5a6fe867147998fd698781a2b12d5af7915d
-SHA256: 5beaf6584ff8fc1a57b32de5b92e49f84946d1f4285dbcb78e554db26568c614
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.14.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 270
@@ -2721,6 +2706,21 @@ Size: 50668
 MD5sum: fe7d9e0994f75ba3fc7c9dfe321bbe72
 SHA1: 67b177a1e6c839695977dbaf85a4dc27680e315f
 SHA256: 39272e8d83b311d36097dd43dfbab7367e5510150f13d767f9d03e3084e5ec26
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.14.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 270
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.14.1-0jammy_arm64.deb
+Size: 50686
+MD5sum: 8379da594a1cfe290d2f15f2704c5e91
+SHA1: 06af5a6fe867147998fd698781a2b12d5af7915d
+SHA256: 5beaf6584ff8fc1a57b32de5b92e49f84946d1f4285dbcb78e554db26568c614
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2757,21 +2757,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.20.0-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 363
-Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.20.0-0jammy_arm64.deb
-Size: 66282
-MD5sum: b19b9677c3591300d1ecf086308a31e1
-SHA1: 0637c7cc7a94fc1a4ebb21e92289ffc17f735306
-SHA256: 5447095fb3bb494a302c0d824f2753c62841d048bbda1f407003cf169463bcd6
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.20.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 363
@@ -2786,16 +2771,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.21.0-0jammy
+Version: 1.20.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 366
+Installed-Size: 363
 Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.21.0-0jammy_arm64.deb
-Size: 66994
-MD5sum: ea683365a00e63c1b0383469f07e733a
-SHA1: 81dc02316d75a9ca1ae3d3cd417140a1bafd98be
-SHA256: fb0adcca7aa06f0010345a7add13980943bc27ad72c9e9c3577c7d44a87f049d
+Filename: ./ros-iron-launch-ext_1.20.0-0jammy_arm64.deb
+Size: 66282
+MD5sum: b19b9677c3591300d1ecf086308a31e1
+SHA1: 0637c7cc7a94fc1a4ebb21e92289ffc17f735306
+SHA256: 5447095fb3bb494a302c0d824f2753c62841d048bbda1f407003cf169463bcd6
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2811,6 +2796,21 @@ Size: 66992
 MD5sum: 7020c5e23d85157d3b1509b8b756b934
 SHA1: b18672639d8147e469a69a65df2c0203e396db83
 SHA256: f870b5badeb51e17a052c4f9f2e67b144d04ee2cedc6ee4f04e95aac6c18a407
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.21.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 366
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.21.0-0jammy_arm64.deb
+Size: 66994
+MD5sum: ea683365a00e63c1b0383469f07e733a
+SHA1: 81dc02316d75a9ca1ae3d3cd417140a1bafd98be
+SHA256: fb0adcca7aa06f0010345a7add13980943bc27ad72c9e9c3577c7d44a87f049d
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2876,16 +2876,31 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.5.0-0jammy
+Version: 1.22.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 175
-Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.5.0-0jammy_amd64.deb
-Size: 32778
-MD5sum: c46642c42af9407535191b4bc1d1649d
-SHA1: 351819bdc87dea14c8c4552119a389557aa5adfc
-SHA256: 295eea25c7fa09680102797f4bd87e78d0007a76f130694bfcfb9fc1c08ebc7f
+Installed-Size: 367
+Depends: python3-git, python3-jinja2, python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.22.0-0jammy_amd64.deb
+Size: 67388
+MD5sum: 8d338f5fcaada67ebd5011e20f8272e7
+SHA1: a9f431529ba8e8f67e5f8e68a2110f3876cc5ec1
+SHA256: ac43f3a5c15bb7c8b4a617edb5985bae3174b811dd575f83c38199e9c5fabb70
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.22.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 367
+Depends: python3-git, python3-jinja2, python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.22.0-0jammy_arm64.deb
+Size: 67388
+MD5sum: eea6683f9869607293ac57d08dc82278
+SHA1: d342e6c60495e739f40325521d68a48b33b2dabf
+SHA256: e2aa5c60ecd662a431c71f7ed392c2dcaee0a5fe30303126ea080cde0f309f1b
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2906,16 +2921,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.6.0-0jammy
-Architecture: arm64
+Version: 1.5.0-0jammy
+Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 181
+Installed-Size: 175
 Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.6.0-0jammy_arm64.deb
-Size: 33992
-MD5sum: c20261d4aadd2002bb63832658b7a58f
-SHA1: b90ff7d75154a6ebfacd383a85c417e865180bd9
-SHA256: 9771eab6b720045b68c8b28aeb90926cf8bcbad4ba6ed7f1746d21ad391f65c7
+Filename: ./ros-iron-launch-ext_1.5.0-0jammy_amd64.deb
+Size: 32778
+MD5sum: c46642c42af9407535191b4bc1d1649d
+SHA1: 351819bdc87dea14c8c4552119a389557aa5adfc
+SHA256: 295eea25c7fa09680102797f4bd87e78d0007a76f130694bfcfb9fc1c08ebc7f
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2936,16 +2951,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.6.1-0jammy
+Version: 1.6.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 181
 Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.6.1-0jammy_arm64.deb
-Size: 34000
-MD5sum: 9afbb254e03cc9fbbbaf44828d1e859c
-SHA1: e40eaed428149adfd78ee1122d1d68db96738047
-SHA256: cca67c8247397e291e0cacec85512df6dc62c8f8b09ad02bc65674c2ceb33b4e
+Filename: ./ros-iron-launch-ext_1.6.0-0jammy_arm64.deb
+Size: 33992
+MD5sum: c20261d4aadd2002bb63832658b7a58f
+SHA1: b90ff7d75154a6ebfacd383a85c417e865180bd9
+SHA256: 9771eab6b720045b68c8b28aeb90926cf8bcbad4ba6ed7f1746d21ad391f65c7
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2961,6 +2976,21 @@ Size: 34002
 MD5sum: 81786eb71d4efc69231914a42e5a5527
 SHA1: b45d12cff8cc0169697247b8240778c674c24013
 SHA256: 66912f90813c11c8003c39fdbd4abed9fcc688d7c0f64fe241f96aa2bb19abc1
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.6.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 181
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.6.1-0jammy_arm64.deb
+Size: 34000
+MD5sum: 9afbb254e03cc9fbbbaf44828d1e859c
+SHA1: e40eaed428149adfd78ee1122d1d68db96738047
+SHA256: cca67c8247397e291e0cacec85512df6dc62c8f8b09ad02bc65674c2ceb33b4e
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -2997,21 +3027,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.8.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 190
-Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.8.0-0jammy_amd64.deb
-Size: 36632
-MD5sum: 24cd50370e81cb6b2edf428e2f54a994
-SHA1: 207f2191eb4fed52baa4e547bbe6b40a1b27a74c
-SHA256: 3b8eca8bc910b1aa8ec734be5540e24ce8cde2e12acfbea3f76646780c04a2c3
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.8.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 190
@@ -3021,6 +3036,21 @@ Size: 36642
 MD5sum: 84f18f7eb7d096bdb4943f7e25340cb9
 SHA1: 690ea81c5e20e5a98c7c2e6049de41d7d23fe542
 SHA256: 00a10ccc5fadad4e0d0db82d446c3a7e13693d36324b24e05dc203fff5cb61c1
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.8.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 190
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.8.0-0jammy_amd64.deb
+Size: 36632
+MD5sum: 24cd50370e81cb6b2edf428e2f54a994
+SHA1: 207f2191eb4fed52baa4e547bbe6b40a1b27a74c
+SHA256: 3b8eca8bc910b1aa8ec734be5540e24ce8cde2e12acfbea3f76646780c04a2c3
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -3042,21 +3072,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.9.1-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 197
-Depends: python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.9.1-0jammy_arm64.deb
-Size: 37882
-MD5sum: 745a3a5457604c7a73ed72c4ca61df5c
-SHA1: 09a8621033b7339e9d1af8b5d8d0852e33d2c1b3
-SHA256: 01813c7a59aaa5f6e41dbd78c5fe95751d772012c80d1dc02570cdfadc45b9f4
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.9.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 197
@@ -3070,21 +3085,20 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
-Package: ros-iron-libxmlmm
-Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
-Installed-Size: 121
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), libxml2-dev
-Filename: ./ros-iron-libxmlmm_1.0.0-0jammy_amd64.deb
-Size: 25210
-MD5sum: 43edaf1b3a72ca25908a6b6a36e2ff48
-SHA1: a084150e5611fcd823300b473a4ad4f04f06be64
-SHA256: 6e7d1dd2c0dee11ebd84611e44f5f48181cf6b76035dc389068ef1feb73bfbb5
+Package: ros-iron-launch-ext
+Version: 1.9.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 197
+Depends: python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.9.1-0jammy_arm64.deb
+Size: 37882
+MD5sum: 745a3a5457604c7a73ed72c4ca61df5c
+SHA1: 09a8621033b7339e9d1af8b5d8d0852e33d2c1b3
+SHA256: 01813c7a59aaa5f6e41dbd78c5fe95751d772012c80d1dc02570cdfadc45b9f4
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/libxmlmm
-Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
+Description: Some extras for launch tooling.
 
 Package: ros-iron-libxmlmm
 Version: 1.0.0-0jammy
@@ -3102,20 +3116,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/libxmlmm
 Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
-Package: ros-iron-pwmdriver
+Package: ros-iron-libxmlmm
 Version: 1.0.0-0jammy
 Architecture: amd64
-Maintainer: Russ Webber <russ@rw.id.au>
-Installed-Size: 476
-Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
-Filename: ./ros-iron-pwmdriver_1.0.0-0jammy_amd64.deb
-Size: 109930
-MD5sum: b92682c1a5b88a4d728a45808cc3ae6a
-SHA1: 773858b9b53d55baa667e56e1ec3b2a5b3cf17b1
-SHA256: 7f0aced852830a62b42fa8876ec52b5facd79f01c23c9667a0ced98088d1350e
+Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
+Installed-Size: 121
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), libxml2-dev
+Filename: ./ros-iron-libxmlmm_1.0.0-0jammy_amd64.deb
+Size: 25210
+MD5sum: 43edaf1b3a72ca25908a6b6a36e2ff48
+SHA1: a084150e5611fcd823300b473a4ad4f04f06be64
+SHA256: 6e7d1dd2c0dee11ebd84611e44f5f48181cf6b76035dc389068ef1feb73bfbb5
 Section: misc
 Priority: optional
-Description: ROS2 Driver for the Linux PWM Interface
+Homepage: https://github.com/Greenroom-Robotics/libxmlmm
+Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
 Package: ros-iron-pwmdriver
 Version: 1.0.0-0jammy
@@ -3133,16 +3148,16 @@ Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
 Package: ros-iron-pwmdriver
-Version: 1.0.1-0jammy
-Architecture: arm64
+Version: 1.0.0-0jammy
+Architecture: amd64
 Maintainer: Russ Webber <russ@rw.id.au>
-Installed-Size: 440
+Installed-Size: 476
 Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
-Filename: ./ros-iron-pwmdriver_1.0.1-0jammy_arm64.deb
-Size: 101216
-MD5sum: e574cd2ad8016d4077ed2978704ea11b
-SHA1: 3c909c4dec722ae6a81d212d6b57c37f8e77a85e
-SHA256: 4c29b2ff953461b379f1416af4dc747518984762446515dc0ff8bf167918607c
+Filename: ./ros-iron-pwmdriver_1.0.0-0jammy_amd64.deb
+Size: 109930
+MD5sum: b92682c1a5b88a4d728a45808cc3ae6a
+SHA1: 773858b9b53d55baa667e56e1ec3b2a5b3cf17b1
+SHA256: 7f0aced852830a62b42fa8876ec52b5facd79f01c23c9667a0ced98088d1350e
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -3158,6 +3173,21 @@ Size: 109932
 MD5sum: e47d338a172b0b44ce1f49aa4c789513
 SHA1: 2595763764e7a5e097b6687121445ccf585d7b83
 SHA256: d57ac62c43c37169988870927c89c0bf8449ff37fc57c856e4087ed6c20ffb7c
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
+Package: ros-iron-pwmdriver
+Version: 1.0.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 440
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
+Filename: ./ros-iron-pwmdriver_1.0.1-0jammy_arm64.deb
+Size: 101216
+MD5sum: e574cd2ad8016d4077ed2978704ea11b
+SHA1: 3c909c4dec722ae6a81d212d6b57c37f8e77a85e
+SHA256: 4c29b2ff953461b379f1416af4dc747518984762446515dc0ff8bf167918607c
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -3224,21 +3254,6 @@ Description: ROS2 Driver for the Linux PWM Interface
 
 Package: ros-iron-pwmdriver
 Version: 1.1.2-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ@rw.id.au>
-Installed-Size: 494
-Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
-Filename: ./ros-iron-pwmdriver_1.1.2-0jammy_amd64.deb
-Size: 112510
-MD5sum: f1dbd3e0781d48c28eae7b070e9b1466
-SHA1: b0b3e8ca0df92d6fb377fbfa16b475e5ebe84a2b
-SHA256: f41e457b04d8645d04887ec74e4bb5b4aeb9702c91178397b9be8ac69c3d35a6
-Section: misc
-Priority: optional
-Description: ROS2 Driver for the Linux PWM Interface
-
-Package: ros-iron-pwmdriver
-Version: 1.1.2-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ@rw.id.au>
 Installed-Size: 453
@@ -3253,16 +3268,16 @@ Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
 Package: ros-iron-pwmdriver
-Version: 1.1.3-0jammy
+Version: 1.1.2-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ@rw.id.au>
-Installed-Size: 498
+Installed-Size: 494
 Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
-Filename: ./ros-iron-pwmdriver_1.1.3-0jammy_amd64.deb
-Size: 113126
-MD5sum: bae91cf946a7e5b6234bddcd37bcb4a5
-SHA1: e477a01533913388a12995366566231d480ae903
-SHA256: 057bc04eb9fb3945dce5b936800bb184c3be4c63041952f8d1cfa5473a7636e3
+Filename: ./ros-iron-pwmdriver_1.1.2-0jammy_amd64.deb
+Size: 112510
+MD5sum: f1dbd3e0781d48c28eae7b070e9b1466
+SHA1: b0b3e8ca0df92d6fb377fbfa16b475e5ebe84a2b
+SHA256: f41e457b04d8645d04887ec74e4bb5b4aeb9702c91178397b9be8ac69c3d35a6
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -3278,6 +3293,21 @@ Size: 103970
 MD5sum: fa4a89b4b47094063e673059f5c5b68e
 SHA1: 890d71ec78bd372c567340852ce687a5aa74b4ce
 SHA256: d98fa29162aa35211e9424d3397a396603dac272dd3b736544569d14add2d504
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
+Package: ros-iron-pwmdriver
+Version: 1.1.3-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 498
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
+Filename: ./ros-iron-pwmdriver_1.1.3-0jammy_amd64.deb
+Size: 113126
+MD5sum: bae91cf946a7e5b6234bddcd37bcb4a5
+SHA1: e477a01533913388a12995366566231d480ae903
+SHA256: 057bc04eb9fb3945dce5b936800bb184c3be4c63041952f8d1cfa5473a7636e3
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -3346,22 +3376,6 @@ Description: Package containing various utility types and functions for C
 
 Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 103
-Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
-Filename: ./ros-iron-rosapi_2.1.0-0jammy_amd64.deb
-Size: 15114
-MD5sum: b3c37effad4cc3cd09960524208a41cd
-SHA1: 44d0a7745bec9612faac6d09252e58d13c712e38
-SHA256: d56e4fc852a128af894035fa6aef1b027d5fbe6ea7d967f6106713a1cad341c3
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosapi
-Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
-
-Package: ros-iron-rosapi
-Version: 2.1.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 103
@@ -3377,16 +3391,16 @@ Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
 Package: ros-iron-rosapi
-Version: 2.2.0-0jammy
-Architecture: arm64
+Version: 2.1.0-0jammy
+Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 109
+Installed-Size: 103
 Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
-Filename: ./ros-iron-rosapi_2.2.0-0jammy_arm64.deb
-Size: 20134
-MD5sum: d93ea5caf05a1a333b38e95e3fdfbcfb
-SHA1: d7effd05446017a6d8abb8576530d3a8c9139ce0
-SHA256: 80d56649672a3352702cc442b75a2eb9d4c66a5420f0fabd595d9f33ce2c41aa
+Filename: ./ros-iron-rosapi_2.1.0-0jammy_amd64.deb
+Size: 15114
+MD5sum: b3c37effad4cc3cd09960524208a41cd
+SHA1: 44d0a7745bec9612faac6d09252e58d13c712e38
+SHA256: d56e4fc852a128af894035fa6aef1b027d5fbe6ea7d967f6106713a1cad341c3
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -3403,6 +3417,22 @@ Size: 20120
 MD5sum: d90643a41ac06721779c0786f0737665
 SHA1: 646e6c74654459eaadfdb59f00a9b9551003ddf5
 SHA256: 45210d7092f04118ed2581020d32108a4a5d7b186f39acedd3f97f878c7bdfa4
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
+Package: ros-iron-rosapi
+Version: 2.2.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 109
+Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
+Filename: ./ros-iron-rosapi_2.2.0-0jammy_arm64.deb
+Size: 20134
+MD5sum: d93ea5caf05a1a333b38e95e3fdfbcfb
+SHA1: d7effd05446017a6d8abb8576530d3a8c9139ce0
+SHA256: 80d56649672a3352702cc442b75a2eb9d4c66a5420f0fabd595d9f33ce2c41aa
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -3442,22 +3472,6 @@ Description: Provides service calls for getting ros meta-information, like list 
 
 Package: ros-iron-rosapi-msgs
 Version: 2.2.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 9766
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-rosapi-msgs_2.2.0-0jammy_amd64.deb
-Size: 572208
-MD5sum: 966a244bf2e184b2da9276a2b8506b47
-SHA1: a508768c2380846f30039caf2809da6cba6e890f
-SHA256: 6b4d1bec9b608aec9f29de6caa6a7a1c5a64da62b1d2242c6be937929bb0fa2e
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosapi
-Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
-
-Package: ros-iron-rosapi-msgs
-Version: 2.2.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 9772
@@ -3467,6 +3481,22 @@ Size: 559952
 MD5sum: 322e37187c1310feb7b5c0e038323170
 SHA1: 3fed685dca6d59e94cdd61ec073bc7714f1792eb
 SHA256: 1e8f3bdd018bdae7da23c954863f35e5916fdae92aa0e0835d8ae099e29db8b0
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
+Package: ros-iron-rosapi-msgs
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 9766
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosapi-msgs_2.2.0-0jammy_amd64.deb
+Size: 572208
+MD5sum: 966a244bf2e184b2da9276a2b8506b47
+SHA1: a508768c2380846f30039caf2809da6cba6e890f
+SHA256: 6b4d1bec9b608aec9f29de6caa6a7a1c5a64da62b1d2242c6be937929bb0fa2e
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -3521,21 +3551,6 @@ Description: Package containing message files
 
 Package: ros-iron-rosbridge-msgs
 Version: 2.2.0-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
-Installed-Size: 550
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-rosbridge-msgs_2.2.0-0jammy_amd64.deb
-Size: 53354
-MD5sum: d4f9ae9a97d93956a1cef427cd71ae53
-SHA1: a8c5b90c0c18ba0d9c419ba00c0198e52a99f38c
-SHA256: a80f2a845c1f69fdf3f138c0570a833fd2b168da2e8950207bce83b7b4f1e720
-Section: misc
-Priority: optional
-Description: Package containing message files
-
-Package: ros-iron-rosbridge-msgs
-Version: 2.2.0-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
 Installed-Size: 501
@@ -3549,21 +3564,20 @@ Section: misc
 Priority: optional
 Description: Package containing message files
 
-Package: ros-iron-rosbridge-server
-Version: 2.1.0-0jammy
-Architecture: arm64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 87
-Depends: python3-tornado, python3-twisted, ros-iron-rclpy, ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-msgs
-Filename: ./ros-iron-rosbridge-server_2.1.0-0jammy_arm64.deb
-Size: 11492
-MD5sum: 7683e975772149c0ea45fd2d4580d673
-SHA1: 72bb2e8aee20d9acfe4aee9ffbdc12f27f72d2c6
-SHA256: 6dc09ccb066eb679a6a642a8f37537a086c43516c0fed0d372cf62690bf7168e
+Package: ros-iron-rosbridge-msgs
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
+Installed-Size: 550
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosbridge-msgs_2.2.0-0jammy_amd64.deb
+Size: 53354
+MD5sum: d4f9ae9a97d93956a1cef427cd71ae53
+SHA1: a8c5b90c0c18ba0d9c419ba00c0198e52a99f38c
+SHA256: a80f2a845c1f69fdf3f138c0570a833fd2b168da2e8950207bce83b7b4f1e720
 Section: misc
 Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_server
-Description: A WebSocket interface to rosbridge.
+Description: Package containing message files
 
 Package: ros-iron-rosbridge-server
 Version: 2.1.0-0jammy
@@ -3576,6 +3590,22 @@ Size: 11498
 MD5sum: 6254d2f73ccd0a0fc9b3d74d33a78f3a
 SHA1: f784807adf5d6724e4362fb315aa7a775788cf9d
 SHA256: daed27d3020b3a682f6343cd3dd53ccba0d6854c65c649bc4fc9317b630d4149
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_server
+Description: A WebSocket interface to rosbridge.
+
+Package: ros-iron-rosbridge-server
+Version: 2.1.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 87
+Depends: python3-tornado, python3-twisted, ros-iron-rclpy, ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-msgs
+Filename: ./ros-iron-rosbridge-server_2.1.0-0jammy_arm64.deb
+Size: 11492
+MD5sum: 7683e975772149c0ea45fd2d4580d673
+SHA1: 72bb2e8aee20d9acfe4aee9ffbdc12f27f72d2c6
+SHA256: 6dc09ccb066eb679a6a642a8f37537a086c43516c0fed0d372cf62690bf7168e
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_server
@@ -3699,22 +3729,6 @@ Description: Message and service definitions used in internal tests for rosbridg
 
 Package: ros-iron-rosbridge-test-msgs
 Version: 2.2.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 14255
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rclpy, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-rosbridge-test-msgs_2.2.0-0jammy_amd64.deb
-Size: 725190
-MD5sum: 23ab765e3b73b15ffe9964d3dd37cfa1
-SHA1: b218fc806f2dc39407ef6b325ecf52f8f3b0178c
-SHA256: b2443604e096c99c0da2ccc0168180fb19915364e06c6dae6298cfb99a98f576
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_library
-Description: Message and service definitions used in internal tests for rosbridge packages.
-
-Package: ros-iron-rosbridge-test-msgs
-Version: 2.2.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 14304
@@ -3724,6 +3738,22 @@ Size: 712966
 MD5sum: f854305dcfc702219df7275909dedd93
 SHA1: 1aa9b68625cf17d0cf403176ea3fccae0f04ff66
 SHA256: 7fbbac77154896a79ccff8f4f93e0132b0dfa676f22ec34f08ab35b42e6619ba
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
+Package: ros-iron-rosbridge-test-msgs
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 14255
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rclpy, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-rosbridge-test-msgs_2.2.0-0jammy_amd64.deb
+Size: 725190
+MD5sum: 23ab765e3b73b15ffe9964d3dd37cfa1
+SHA1: b218fc806f2dc39407ef6b325ecf52f8f3b0178c
+SHA256: b2443604e096c99c0da2ccc0168180fb19915364e06c6dae6298cfb99a98f576
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -3793,22 +3823,6 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.5.0-0jammy
-Architecture: amd64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 8107
-Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-diagnostic-updater, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-septentrio-gnss-driver_1.5.0-0jammy_amd64.deb
-Size: 879854
-MD5sum: cb608a7abf0c61da6bb28c7e18a2a4d6
-SHA1: 913528b84e43a45e6e8fa1cf565eb3cd0a787687
-SHA256: ff0e8eb8cae3dfbaa5b83cb9b84dbf035f7b3238c7aae1040e2d37e15abe13ee
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-iron-septentrio-gnss-driver
-Version: 1.5.0-0jammy
 Architecture: arm64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 7872
@@ -3818,6 +3832,22 @@ Size: 824098
 MD5sum: ff1e58ce92f3468cb16afde87768342b
 SHA1: 24cfabedc45544dafa0ef629e03c32bb1635b06e
 SHA256: e95d32b1f2fc29273e2e1344b39ab311ab6e9ab5b56c90fc67262a246bfc74be
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-iron-septentrio-gnss-driver
+Version: 1.5.0-0jammy
+Architecture: amd64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 8107
+Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-diagnostic-updater, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
+Filename: ./ros-iron-septentrio-gnss-driver_1.5.0-0jammy_amd64.deb
+Size: 879854
+MD5sum: cb608a7abf0c61da6bb28c7e18a2a4d6
+SHA1: 913528b84e43a45e6e8fa1cf565eb3cd0a787687
+SHA256: ff0e8eb8cae3dfbaa5b83cb9b84dbf035f7b3238c7aae1040e2d37e15abe13ee
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -3857,22 +3887,6 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.5.2-0jammy
-Architecture: arm64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 7810
-Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-septentrio-gnss-driver_1.5.2-0jammy_arm64.deb
-Size: 809674
-MD5sum: 34808d458887680847c2fe3facf39df3
-SHA1: 1a7c6bf178df6ca25885efe462e5fb838747fe63
-SHA256: cd4d11bba2c4d1461575d53f16553929be55d1a348744625e91d976c1ecf7f70
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-iron-septentrio-gnss-driver
-Version: 1.5.2-0jammy
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 8061
@@ -3888,16 +3902,16 @@ Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-septentrio-gnss-driver
-Version: 1.5.3-0jammy
+Version: 1.5.2-0jammy
 Architecture: arm64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 7839
+Installed-Size: 7810
 Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-septentrio-gnss-driver_1.5.3-0jammy_arm64.deb
-Size: 812396
-MD5sum: 9e2835f0f08b28d97b8e9e18cff5dd3c
-SHA1: c6df170f8fa48fe06e83795524d4d429b6a4fe53
-SHA256: e5c64db8371a18a6215291bdd2ce510622bf6ce3ff070922034c200224ef612a
+Filename: ./ros-iron-septentrio-gnss-driver_1.5.2-0jammy_arm64.deb
+Size: 809674
+MD5sum: 34808d458887680847c2fe3facf39df3
+SHA1: 1a7c6bf178df6ca25885efe462e5fb838747fe63
+SHA256: cd4d11bba2c4d1461575d53f16553929be55d1a348744625e91d976c1ecf7f70
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -3914,6 +3928,22 @@ Size: 869100
 MD5sum: 1c0351ec7d4ba5b36e54b9c2533fc8c1
 SHA1: 00ae53d9f2d94c88bb9829a5758997c190f0369e
 SHA256: a803f9f7b184221d45030ad41fb91b0c95eb82e525a9c43ea85cb924c037cf03
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-iron-septentrio-gnss-driver
+Version: 1.5.3-0jammy
+Architecture: arm64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 7839
+Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
+Filename: ./ros-iron-septentrio-gnss-driver_1.5.3-0jammy_arm64.deb
+Size: 812396
+MD5sum: 9e2835f0f08b28d97b8e9e18cff5dd3c
+SHA1: c6df170f8fa48fe06e83795524d4d429b6a4fe53
+SHA256: e5c64db8371a18a6215291bdd2ce510622bf6ce3ff070922034c200224ef612a
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -3937,22 +3967,6 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.6.0-0jammy
-Architecture: arm64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 7888
-Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-diagnostic-updater, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-septentrio-gnss-driver_1.6.0-0jammy_arm64.deb
-Size: 823690
-MD5sum: 87ef1b67278e29fb613d01dda7273334
-SHA1: f5fe99b609ddb1b6e7fc0fee2e4e091b7cad2294
-SHA256: 900463bde2f4c10586ebfbefb3543f42e9f74591134f22cfb8fb2a1247dc8f21
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-iron-septentrio-gnss-driver
-Version: 1.6.0-0jammy
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 8111
@@ -3967,20 +3981,21 @@ Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
-Package: ros-iron-xtypes
-Version: 1.1.0-0jammy
+Package: ros-iron-septentrio-gnss-driver
+Version: 1.6.0-0jammy
 Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 632
-Filename: ./ros-iron-xtypes_1.1.0-0jammy_arm64.deb
-Size: 83430
-MD5sum: dfebc96603010bdc5e29782d7aac6873
-SHA1: 012978ad34f8fdd39c060fa1176b2c942a0f13df
-SHA256: 6d3fb2bd9a007c297e470fc4e3c8e6c0f10c797937161f220a9e23fb79732f05
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 7888
+Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-diagnostic-updater, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
+Filename: ./ros-iron-septentrio-gnss-driver_1.6.0-0jammy_arm64.deb
+Size: 823690
+MD5sum: 87ef1b67278e29fb613d01dda7273334
+SHA1: f5fe99b609ddb1b6e7fc0fee2e4e091b7cad2294
+SHA256: 900463bde2f4c10586ebfbefb3543f42e9f74591134f22cfb8fb2a1247dc8f21
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/xtypes
-Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
@@ -3998,15 +4013,15 @@ Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
 Package: ros-iron-xtypes
-Version: 1.1.1-0jammy
-Architecture: amd64
+Version: 1.1.0-0jammy
+Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 633
-Filename: ./ros-iron-xtypes_1.1.1-0jammy_amd64.deb
-Size: 83714
-MD5sum: 9b6eb17492be0fec955c37ba80b9b07e
-SHA1: 0122419cb8c9b1f561a4ce701d703928c8b1e462
-SHA256: ed2a2d7081e1c95e0439df4502cf6d1307c141b841d9989e03fa50a4ab6db44b
+Installed-Size: 632
+Filename: ./ros-iron-xtypes_1.1.0-0jammy_arm64.deb
+Size: 83430
+MD5sum: dfebc96603010bdc5e29782d7aac6873
+SHA1: 012978ad34f8fdd39c060fa1176b2c942a0f13df
+SHA256: 6d3fb2bd9a007c297e470fc4e3c8e6c0f10c797937161f220a9e23fb79732f05
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
@@ -4028,15 +4043,15 @@ Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
 Package: ros-iron-xtypes
-Version: 1.1.2-0jammy
+Version: 1.1.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 635
-Filename: ./ros-iron-xtypes_1.1.2-0jammy_amd64.deb
-Size: 83982
-MD5sum: 233cd23b4fea39c3a496b048a54b83b1
-SHA1: d3e5b03261f230c457177117fe0cb34767a28d34
-SHA256: bf90cfee78612f6d4d237d0173f5e58c84e72fb8a0b101f4cdfa29664f7cb650
+Installed-Size: 633
+Filename: ./ros-iron-xtypes_1.1.1-0jammy_amd64.deb
+Size: 83714
+MD5sum: 9b6eb17492be0fec955c37ba80b9b07e
+SHA1: 0122419cb8c9b1f561a4ce701d703928c8b1e462
+SHA256: ed2a2d7081e1c95e0439df4502cf6d1307c141b841d9989e03fa50a4ab6db44b
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
@@ -4052,6 +4067,21 @@ Size: 84012
 MD5sum: 7f6f8755071fb2a19fb9a487309886ae
 SHA1: 5a04d4d8093b951bad7e55945fa2659e0e34c688
 SHA256: d2746046b4b9676aa8067cd58206f85871473254ec6a3083849712d3d3cc95b7
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-iron-xtypes
+Version: 1.1.2-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-iron-xtypes_1.1.2-0jammy_amd64.deb
+Size: 83982
+MD5sum: 233cd23b4fea39c3a496b048a54b83b1
+SHA1: d3e5b03261f230c457177117fe0cb34767a28d34
+SHA256: bf90cfee78612f6d4d237d0173f5e58c84e72fb8a0b101f4cdfa29664f7cb650
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
@@ -4089,22 +4119,6 @@ Description: Argument Parser for Modern C++
 
 Package: ros-jazzy-canary
 Version: 1.1.1-0noble
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 54
-Depends: libasio-dev, libboost-system-dev
-Filename: ./ros-jazzy-canary_1.1.1-0noble_amd64.deb
-Size: 8110
-MD5sum: b53fbfbaee677033e5932812c1a4fa2c
-SHA1: b0e35d1f6093bdbad27973f3f0c638577b8d360f
-SHA256: 24705b27e9332327978a5486eff7d67a2d02ca5b82278b4de778d2c2da239bb6
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/canary
-Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
-
-Package: ros-jazzy-canary
-Version: 1.1.1-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 54
@@ -4119,21 +4133,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
-Package: ros-jazzy-diagnostic-aggregator
-Version: 10.0.1-0noble
-Architecture: arm64
-Maintainer: Austin Hendrix <namniart@gmail.com>
-Installed-Size: 1646
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
-Filename: ./ros-jazzy-diagnostic-aggregator_10.0.1-0noble_arm64.deb
-Size: 320764
-MD5sum: 3c0b975dab30b473965a769d909c61b0
-SHA1: f80cbf1254eaada2d33c35ebac4ed4651e5cc88e
-SHA256: 0035284c403c906745812b2738be67b8bd3add33cc95f6bc98e6a98d2face55f
+Package: ros-jazzy-canary
+Version: 1.1.1-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 54
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-jazzy-canary_1.1.1-0noble_amd64.deb
+Size: 8110
+MD5sum: b53fbfbaee677033e5932812c1a4fa2c
+SHA1: b0e35d1f6093bdbad27973f3f0c638577b8d360f
+SHA256: 24705b27e9332327978a5486eff7d67a2d02ca5b82278b4de778d2c2da239bb6
 Section: misc
 Priority: optional
-Homepage: http://www.ros.org/wiki/diagnostic_aggregator
-Description: diagnostic_aggregator
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-jazzy-diagnostic-aggregator
 Version: 10.0.1-0noble
@@ -4152,16 +4166,16 @@ Homepage: http://www.ros.org/wiki/diagnostic_aggregator
 Description: diagnostic_aggregator
 
 Package: ros-jazzy-diagnostic-aggregator
-Version: 10.1.1-0noble
-Architecture: amd64
+Version: 10.0.1-0noble
+Architecture: arm64
 Maintainer: Austin Hendrix <namniart@gmail.com>
-Installed-Size: 1545
+Installed-Size: 1646
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
-Filename: ./ros-jazzy-diagnostic-aggregator_10.1.1-0noble_amd64.deb
-Size: 346662
-MD5sum: 11d75153eacf142f1219b1423b20f8ef
-SHA1: 51feca16052baadee4330a3c29838dab3a68a8ee
-SHA256: 100c6024c7a8ce361840c9d53ecd2b66be6f130cb7ae3900ae1676f87e24bce2
+Filename: ./ros-jazzy-diagnostic-aggregator_10.0.1-0noble_arm64.deb
+Size: 320764
+MD5sum: 3c0b975dab30b473965a769d909c61b0
+SHA1: f80cbf1254eaada2d33c35ebac4ed4651e5cc88e
+SHA256: 0035284c403c906745812b2738be67b8bd3add33cc95f6bc98e6a98d2face55f
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -4178,6 +4192,22 @@ Size: 321034
 MD5sum: 9c4ccf7abcdcaf1b36e64e85ddfe6c59
 SHA1: a2ba20d5dd49e8dbd97755435239cf7406ec447f
 SHA256: 9dec57c263ce0299a743333197c507c8098170eb7260935b4f74c83dee69a8bb
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
+Package: ros-jazzy-diagnostic-aggregator
+Version: 10.1.1-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1545
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
+Filename: ./ros-jazzy-diagnostic-aggregator_10.1.1-0noble_amd64.deb
+Size: 346662
+MD5sum: 11d75153eacf142f1219b1423b20f8ef
+SHA1: 51feca16052baadee4330a3c29838dab3a68a8ee
+SHA256: 100c6024c7a8ce361840c9d53ecd2b66be6f130cb7ae3900ae1676f87e24bce2
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -4201,22 +4231,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
 Version: 10.1.0-0noble
-Architecture: arm64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3035
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.1.0-0noble_arm64.deb
-Size: 790132
-MD5sum: ea5576934fdfd9476358391dcc0a8279
-SHA1: 30ed48175968505bf1ab9186d5d56df57c839b84
-SHA256: bc56b6bf4792459c1b3a9a0e68b88903c0c4f1c1d369a72e8cb48ce1205f346e
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-jazzy-foxglove-bridge
-Version: 10.1.0-0noble
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3159
@@ -4226,6 +4240,22 @@ Size: 845426
 MD5sum: 3df96aaf77c6098d38d02348ffd1dc0d
 SHA1: f7d061cdda95252045eff47fcf173efe3bfb3804
 SHA256: 5c32cdf8acbb226eaaa1aad92c9bb9d25f73a3b49d3d1bc2b66e1ad82ca6edd3
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-jazzy-foxglove-bridge
+Version: 10.1.0-0noble
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3035
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.1.0-0noble_arm64.deb
+Size: 790132
+MD5sum: ea5576934fdfd9476358391dcc0a8279
+SHA1: 30ed48175968505bf1ab9186d5d56df57c839b84
+SHA256: bc56b6bf4792459c1b3a9a0e68b88903c0c4f1c1d369a72e8cb48ce1205f346e
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4265,22 +4295,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
 Version: 10.3.0-0noble
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3163
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.3.0-0noble_amd64.deb
-Size: 848868
-MD5sum: caa0d37cc3949a3e0908dfc2c41cbd4b
-SHA1: bb7e4f81bb83c98dc1a6aef3fe7938dcc039ceb2
-SHA256: e6d633904eee6f649fc0078d431a2c81a8143821b81b74c6034f79cd4072bb01
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-jazzy-foxglove-bridge
-Version: 10.3.0-0noble
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3035
@@ -4296,16 +4310,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
-Version: 10.4.0-0noble
+Version: 10.3.0-0noble
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3167
+Installed-Size: 3163
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.4.0-0noble_amd64.deb
-Size: 848034
-MD5sum: f1a9d09fb386e537dc8537cde6a716e7
-SHA1: bed0e986c0490d797adf8105f3799b64928e94f9
-SHA256: bbd0de52e55b089f4917e942164b2cb4f453bd9533d6462cc82770304233be86
+Filename: ./ros-jazzy-foxglove-bridge_10.3.0-0noble_amd64.deb
+Size: 848868
+MD5sum: caa0d37cc3949a3e0908dfc2c41cbd4b
+SHA1: bb7e4f81bb83c98dc1a6aef3fe7938dcc039ceb2
+SHA256: e6d633904eee6f649fc0078d431a2c81a8143821b81b74c6034f79cd4072bb01
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4328,16 +4342,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
-Version: 10.5.0-0noble
-Architecture: arm64
+Version: 10.4.0-0noble
+Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3035
+Installed-Size: 3167
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.5.0-0noble_arm64.deb
-Size: 801696
-MD5sum: dfe335e3a150c0d803dfa01ec356e9e6
-SHA1: ba261e8accd3a8a1acdaff7de3722f34cc067a7a
-SHA256: 95d30c702706188a2899d9679a25795c74f33c757f5cd5fa2940b812ca23acc3
+Filename: ./ros-jazzy-foxglove-bridge_10.4.0-0noble_amd64.deb
+Size: 848034
+MD5sum: f1a9d09fb386e537dc8537cde6a716e7
+SHA1: bed0e986c0490d797adf8105f3799b64928e94f9
+SHA256: bbd0de52e55b089f4917e942164b2cb4f453bd9533d6462cc82770304233be86
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4360,16 +4374,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
-Version: 10.5.1-0noble
+Version: 10.5.0-0noble
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3035
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.5.1-0noble_arm64.deb
-Size: 801348
-MD5sum: 50a7b7d3fd385ac3b623b174293f0377
-SHA1: 9165457cd729c76fadc752a6bfbcf5057a9f9bc6
-SHA256: 1995a8eb58c71baf854a17ea2c09307f9ed732043577ea836b5d41342483fd73
+Filename: ./ros-jazzy-foxglove-bridge_10.5.0-0noble_arm64.deb
+Size: 801696
+MD5sum: dfe335e3a150c0d803dfa01ec356e9e6
+SHA1: ba261e8accd3a8a1acdaff7de3722f34cc067a7a
+SHA256: 95d30c702706188a2899d9679a25795c74f33c757f5cd5fa2940b812ca23acc3
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4386,6 +4400,22 @@ Size: 859410
 MD5sum: 72140a85dfb77978fe5085ebdcf12e2f
 SHA1: 4ea15c14e4fab1c0998ad18f65e8cea3d41aefad
 SHA256: bf95b546b357ee4dde9858b56eee5506f27b7e22c95f7b58e889b4b616dc9e9b
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-jazzy-foxglove-bridge
+Version: 10.5.1-0noble
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3035
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.5.1-0noble_arm64.deb
+Size: 801348
+MD5sum: 50a7b7d3fd385ac3b623b174293f0377
+SHA1: 9165457cd729c76fadc752a6bfbcf5057a9f9bc6
+SHA256: 1995a8eb58c71baf854a17ea2c09307f9ed732043577ea836b5d41342483fd73
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4457,22 +4487,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
 Version: 10.5.4-0noble
-Architecture: arm64
-Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3036
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.5.4-0noble_arm64.deb
-Size: 803248
-MD5sum: c59252a4423ab562c9c4f01908eb3ba7
-SHA1: f6b37e23756c57418a5d5a7c458077dfbd887eec
-SHA256: b8e10f68fad18d8f720f2cd3d4f57362d6c7dc8e38464dcb55b57dfe86dbea81
-Section: misc
-Priority: optional
-Homepage: https://github.com/foxglove/ros-foxglove-bridge
-Description: ROS Foxglove Bridge
-
-Package: ros-jazzy-foxglove-bridge
-Version: 10.5.4-0noble
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3216
@@ -4488,16 +4502,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
-Version: 10.5.5-0noble
-Architecture: amd64
+Version: 10.5.4-0noble
+Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
-Installed-Size: 3228
+Installed-Size: 3036
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.5.5-0noble_amd64.deb
-Size: 865664
-MD5sum: e20b17ccc95a797b1c71257c29608f13
-SHA1: 83b9c1c3ffc1bb849366944b94de204548370c1e
-SHA256: d082f7f64e63fed4b6e359c40fc83fd73ddf1ee9e0d60ae4b8879da029a109d5
+Filename: ./ros-jazzy-foxglove-bridge_10.5.4-0noble_arm64.deb
+Size: 803248
+MD5sum: c59252a4423ab562c9c4f01908eb3ba7
+SHA1: f6b37e23756c57418a5d5a7c458077dfbd887eec
+SHA256: b8e10f68fad18d8f720f2cd3d4f57362d6c7dc8e38464dcb55b57dfe86dbea81
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4520,16 +4534,16 @@ Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-foxglove-bridge
-Version: 10.5.7-0noble
+Version: 10.5.5-0noble
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3228
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
-Filename: ./ros-jazzy-foxglove-bridge_10.5.7-0noble_amd64.deb
-Size: 865680
-MD5sum: 95fd2352549c9051d4db0224434b7add
-SHA1: 19b65298eaf4102ee45e8356bb7fb6e7f9573a6f
-SHA256: c432c9b6098d23c1896da36d0f0808bf82cb7d386eecd4373f69bb67950c1673
+Filename: ./ros-jazzy-foxglove-bridge_10.5.5-0noble_amd64.deb
+Size: 865664
+MD5sum: e20b17ccc95a797b1c71257c29608f13
+SHA1: 83b9c1c3ffc1bb849366944b94de204548370c1e
+SHA256: d082f7f64e63fed4b6e359c40fc83fd73ddf1ee9e0d60ae4b8879da029a109d5
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -4551,20 +4565,21 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
-Package: ros-jazzy-generate-parameter-library
-Version: 10.0.1-0noble
-Architecture: arm64
-Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 53
-Depends: libfmt-dev, ros-jazzy-generate-parameter-library-py, ros-jazzy-parameter-traits, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rclpy, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
-Filename: ./ros-jazzy-generate-parameter-library_10.0.1-0noble_arm64.deb
-Size: 8574
-MD5sum: ed5b0d2e74a842f9cacbf14fadac9560
-SHA1: 0da251f3703bc1d6abc603c76c63b6fe580a4b16
-SHA256: 015f26156ff6420d2ea62089cbcfae0435ffdcd5c5510dde73b9b82fcddd46f9
+Package: ros-jazzy-foxglove-bridge
+Version: 10.5.7-0noble
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3228
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.5.7-0noble_amd64.deb
+Size: 865680
+MD5sum: 95fd2352549c9051d4db0224434b7add
+SHA1: 19b65298eaf4102ee45e8356bb7fb6e7f9573a6f
+SHA256: c432c9b6098d23c1896da36d0f0808bf82cb7d386eecd4373f69bb67950c1673
 Section: misc
 Priority: optional
-Description: CMake to generate ROS parameter library.
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
 
 Package: ros-jazzy-generate-parameter-library
 Version: 10.0.1-0noble
@@ -4581,20 +4596,20 @@ Section: misc
 Priority: optional
 Description: CMake to generate ROS parameter library.
 
-Package: ros-jazzy-generate-parameter-library-py
+Package: ros-jazzy-generate-parameter-library
 Version: 10.0.1-0noble
-Architecture: amd64
+Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 280
-Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.0.1-0noble_amd64.deb
-Size: 52792
-MD5sum: 30b30b66c8f15164177e845f2476ef4c
-SHA1: 0d4ec1c0932676638dcd1dce28fee1628b73bce8
-SHA256: 2fc9ef4dcb0abfb7d1b208a8f36951276d7f36f8af079e2101cf7ba1e5d0e16a
+Installed-Size: 53
+Depends: libfmt-dev, ros-jazzy-generate-parameter-library-py, ros-jazzy-parameter-traits, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rclpy, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-generate-parameter-library_10.0.1-0noble_arm64.deb
+Size: 8574
+MD5sum: ed5b0d2e74a842f9cacbf14fadac9560
+SHA1: 0da251f3703bc1d6abc603c76c63b6fe580a4b16
+SHA256: 015f26156ff6420d2ea62089cbcfae0435ffdcd5c5510dde73b9b82fcddd46f9
 Section: misc
 Priority: optional
-Description: Python to generate ROS parameter library.
+Description: CMake to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
 Version: 10.0.1-0noble
@@ -4607,6 +4622,21 @@ Size: 52792
 MD5sum: 88913d4c1285fc50108c66d6ea5da80d
 SHA1: 86234b2d3d3c40ae681d129cffc715d5811aa444
 SHA256: 4671cc54ee0f8026b874902803b66a3666427934a9b17499394d7089d7cb9e34
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 280
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.1-0noble_amd64.deb
+Size: 52792
+MD5sum: 30b30b66c8f15164177e845f2476ef4c
+SHA1: 0d4ec1c0932676638dcd1dce28fee1628b73bce8
+SHA256: 2fc9ef4dcb0abfb7d1b208a8f36951276d7f36f8af079e2101cf7ba1e5d0e16a
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4643,21 +4673,6 @@ Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
 Version: 10.0.3-0noble
-Architecture: amd64
-Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 282
-Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.0.3-0noble_amd64.deb
-Size: 53022
-MD5sum: 98689b1371d6a7e702cbdcab207f5ee6
-SHA1: b2cf66f81c118c084c96c880f88b8dc303d7dc39
-SHA256: 151fd5e69023562de664d3da462954de51d7ff2d1ccc472455495e4c21e8699a
-Section: misc
-Priority: optional
-Description: Python to generate ROS parameter library.
-
-Package: ros-jazzy-generate-parameter-library-py
-Version: 10.0.3-0noble
 Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 282
@@ -4672,16 +4687,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.0-0noble
+Version: 10.0.3-0noble
 Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 282
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.0-0noble_amd64.deb
-Size: 53128
-MD5sum: 7ce9c44ecca33581e3845672b2365975
-SHA1: 69a4c28f369e71489c548d137a911cf6030819b7
-SHA256: 90141a70773d80f81cb159eee63c6c1cc302cef119e9c0e9c314a900dfa124ca
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.3-0noble_amd64.deb
+Size: 53022
+MD5sum: 98689b1371d6a7e702cbdcab207f5ee6
+SHA1: b2cf66f81c118c084c96c880f88b8dc303d7dc39
+SHA256: 151fd5e69023562de664d3da462954de51d7ff2d1ccc472455495e4c21e8699a
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4702,16 +4717,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.1-0noble
+Version: 10.1.0-0noble
 Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 282
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.1-0noble_amd64.deb
-Size: 53600
-MD5sum: cdf9e5086d0ae02d0771968bd10f3d36
-SHA1: 5f60b89128e636c345403392dd6a2a2583c3fbef
-SHA256: 20c62184a28f6e82115518ddf70c3bc551978c021ea019302ac9c551f0d436e5
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.0-0noble_amd64.deb
+Size: 53128
+MD5sum: 7ce9c44ecca33581e3845672b2365975
+SHA1: 69a4c28f369e71489c548d137a911cf6030819b7
+SHA256: 90141a70773d80f81cb159eee63c6c1cc302cef119e9c0e9c314a900dfa124ca
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4732,16 +4747,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.2-0noble
+Version: 10.1.1-0noble
 Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 284
+Installed-Size: 282
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.2-0noble_amd64.deb
-Size: 53712
-MD5sum: 73b7bc9cc905f44040c0afc7d79c6f81
-SHA1: 4ba2fad1c3c7e1f37a7e4d8de777ab71561637e7
-SHA256: 603a242c1a1f012ae7f51eb77af4e4d0a2db3ec6e307e96490e4ff96d20b6ffd
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.1-0noble_amd64.deb
+Size: 53600
+MD5sum: cdf9e5086d0ae02d0771968bd10f3d36
+SHA1: 5f60b89128e636c345403392dd6a2a2583c3fbef
+SHA256: 20c62184a28f6e82115518ddf70c3bc551978c021ea019302ac9c551f0d436e5
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4762,16 +4777,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.3-0noble
-Architecture: arm64
+Version: 10.1.2-0noble
+Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.3-0noble_arm64.deb
-Size: 53728
-MD5sum: 7dca7a8a7254abdafa3c6a75f0d1256d
-SHA1: 34de13befb3be6f00a47bb90bd17a701bb83e7b3
-SHA256: 18774fd44ad2199e404a9a74a445ff2024d088ece2aace90d66715abb23734b9
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.2-0noble_amd64.deb
+Size: 53712
+MD5sum: 73b7bc9cc905f44040c0afc7d79c6f81
+SHA1: 4ba2fad1c3c7e1f37a7e4d8de777ab71561637e7
+SHA256: 603a242c1a1f012ae7f51eb77af4e4d0a2db3ec6e307e96490e4ff96d20b6ffd
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4792,16 +4807,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.4-0noble
-Architecture: amd64
+Version: 10.1.3-0noble
+Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.4-0noble_amd64.deb
-Size: 53732
-MD5sum: 89485bc2b0715534fc487a66e9b17957
-SHA1: c10440b033b2e5c1bb66528c36d032c79bf74fbf
-SHA256: adf66f27356e026c3142aede3511d6b6de8c9f2eeb65c9d278ea032c6afd3c08
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.3-0noble_arm64.deb
+Size: 53728
+MD5sum: 7dca7a8a7254abdafa3c6a75f0d1256d
+SHA1: 34de13befb3be6f00a47bb90bd17a701bb83e7b3
+SHA256: 18774fd44ad2199e404a9a74a445ff2024d088ece2aace90d66715abb23734b9
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4817,6 +4832,21 @@ Size: 53728
 MD5sum: 481beb8713717e131fdfd47620d57057
 SHA1: 94dc83574acd6ba5942be4657ed3f7501c57adff
 SHA256: 9bb5391ebfe3aa939279be59681e0889b316854688f0fc40a38e9ca3feecd8c3
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.4-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.4-0noble_amd64.deb
+Size: 53732
+MD5sum: 89485bc2b0715534fc487a66e9b17957
+SHA1: c10440b033b2e5c1bb66528c36d032c79bf74fbf
+SHA256: adf66f27356e026c3142aede3511d6b6de8c9f2eeb65c9d278ea032c6afd3c08
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4853,21 +4883,6 @@ Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
 Version: 10.1.6-0noble
-Architecture: amd64
-Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 284
-Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.6-0noble_amd64.deb
-Size: 53756
-MD5sum: 8aa4b3a608d2f498d308d71047c6aa27
-SHA1: fb0384d53585bf6b3d8b7978121b3c9087427525
-SHA256: e3911498193816ab4d363762578bb610fbfc6280056b628c6c55f11efef7fe40
-Section: misc
-Priority: optional
-Description: Python to generate ROS parameter library.
-
-Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.6-0noble
 Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
@@ -4882,16 +4897,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.1.7-0noble
-Architecture: arm64
+Version: 10.1.6-0noble
+Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.1.7-0noble_arm64.deb
-Size: 53750
-MD5sum: dfd4e53ad77fb3b4f3a7f5e4fb64e4f2
-SHA1: 848c716b9911eb343700f2df24d3894a6a568acf
-SHA256: d23d0c50ba1ba4828c71e845cf379ee571b944856a8981737bb896ca236db393
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.6-0noble_amd64.deb
+Size: 53756
+MD5sum: 8aa4b3a608d2f498d308d71047c6aa27
+SHA1: fb0384d53585bf6b3d8b7978121b3c9087427525
+SHA256: e3911498193816ab4d363762578bb610fbfc6280056b628c6c55f11efef7fe40
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4912,16 +4927,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.2.0-0noble
-Architecture: amd64
+Version: 10.1.7-0noble
+Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.2.0-0noble_amd64.deb
-Size: 53754
-MD5sum: 358b813741eb02dd3df417d99cecb205
-SHA1: 96a957806f7e36cf91a48c45eddb064f037fed9d
-SHA256: 835ebd7c2d8868a7c592bbb19c31118d75519cc8f114cd2594446d3b4f7a3c43
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.7-0noble_arm64.deb
+Size: 53750
+MD5sum: dfd4e53ad77fb3b4f3a7f5e4fb64e4f2
+SHA1: 848c716b9911eb343700f2df24d3894a6a568acf
+SHA256: d23d0c50ba1ba4828c71e845cf379ee571b944856a8981737bb896ca236db393
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4942,16 +4957,16 @@ Priority: optional
 Description: Python to generate ROS parameter library.
 
 Package: ros-jazzy-generate-parameter-library-py
-Version: 10.2.1-0noble
-Architecture: arm64
+Version: 10.2.0-0noble
+Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 284
 Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-jazzy-generate-parameter-library-py_10.2.1-0noble_arm64.deb
-Size: 53876
-MD5sum: f638448ba0b3048f7c8eeb6a7e8f020d
-SHA1: 77b2e4f905c5e24e0b93266a9d6638ea14560116
-SHA256: b394795f828db47f03ac6456e2bcb03da44e717fd7ed67692a3a543ce4bc5a6a
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.0-0noble_amd64.deb
+Size: 53754
+MD5sum: 358b813741eb02dd3df417d99cecb205
+SHA1: 96a957806f7e36cf91a48c45eddb064f037fed9d
+SHA256: 835ebd7c2d8868a7c592bbb19c31118d75519cc8f114cd2594446d3b4f7a3c43
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -4967,6 +4982,21 @@ Size: 53866
 MD5sum: 155750ff6f4be07c503662e5f0e1c9f4
 SHA1: 72b5026c599d453a3b09d8735d5cde24755dc2dd
 SHA256: ba26e87386050aa00a04cbc137324e2a0975ee0a7bf08f47edd54e4f2e7e03a7
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.1-0noble_arm64.deb
+Size: 53876
+MD5sum: f638448ba0b3048f7c8eeb6a7e8f020d
+SHA1: 77b2e4f905c5e24e0b93266a9d6638ea14560116
+SHA256: b394795f828db47f03ac6456e2bcb03da44e717fd7ed67692a3a543ce4bc5a6a
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -5035,22 +5065,6 @@ Description: Integration Services core
 
 Package: ros-jazzy-is-core
 Version: 1.1.3-0noble
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1627
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-jazzy-is-core_1.1.3-0noble_arm64.deb
-Size: 429908
-MD5sum: 48a5555ae066284e2e18b3f357f43d08
-SHA1: 95a412fb3eacae840a25a5751b98a8bdc53ff0e2
-SHA256: 8f3d58ea70af25f744765c8eab94460493bbcdd09c851e1cf02da2bf55d0e500
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-jazzy-is-core
-Version: 1.1.3-0noble
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1623
@@ -5065,21 +5079,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
-Package: ros-jazzy-is-ros2
-Version: 1.2.2-0noble
-Architecture: amd64
+Package: ros-jazzy-is-core
+Version: 1.1.3-0noble
+Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 484
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-is-core (>= 1.1.2), ros-jazzy-rclcpp, ros-jazzy-xtypes
-Filename: ./ros-jazzy-is-ros2_1.2.2-0noble_amd64.deb
-Size: 115424
-MD5sum: d06e445b490c0720292d5c78a08422a0
-SHA1: 9abf4f3b4a07ff3a129b39af0798c81fd67e0a22
-SHA256: 20959d97af345386d9804f6aff026ed42a5474f2873f8aa5f469588017834a01
+Installed-Size: 1627
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-jazzy-is-core_1.1.3-0noble_arm64.deb
+Size: 429908
+MD5sum: 48a5555ae066284e2e18b3f357f43d08
+SHA1: 95a412fb3eacae840a25a5751b98a8bdc53ff0e2
+SHA256: 8f3d58ea70af25f744765c8eab94460493bbcdd09c851e1cf02da2bf55d0e500
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
 
 Package: ros-jazzy-is-ros2
 Version: 1.2.2-0noble
@@ -5098,16 +5112,16 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-sup
 Description: Integration Service System Handle for ROS 2
 
 Package: ros-jazzy-is-ros2
-Version: 1.2.3-0noble
+Version: 1.2.2-0noble
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 484
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-is-core (>= 1.1.3), ros-jazzy-rclcpp, ros-jazzy-xtypes
-Filename: ./ros-jazzy-is-ros2_1.2.3-0noble_amd64.deb
-Size: 115532
-MD5sum: ada14634abbccc3a94c4a32d6930c9ba
-SHA1: 1c741094172d99818306bfa0d9ddf76dc96f88ad
-SHA256: 9910bd3bb829731d4e6c2efad2b67963e0fe0c63eaf1a8b586234629520d64c4
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-is-core (>= 1.1.2), ros-jazzy-rclcpp, ros-jazzy-xtypes
+Filename: ./ros-jazzy-is-ros2_1.2.2-0noble_amd64.deb
+Size: 115424
+MD5sum: d06e445b490c0720292d5c78a08422a0
+SHA1: 9abf4f3b4a07ff3a129b39af0798c81fd67e0a22
+SHA256: 20959d97af345386d9804f6aff026ed42a5474f2873f8aa5f469588017834a01
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -5124,6 +5138,22 @@ Size: 110450
 MD5sum: 7fef08e58e06b46d97506b9aae20f8bc
 SHA1: 617586230fab22e5799d9bae834708d6a57088ab
 SHA256: 60fe90d8f6aab675a0055496f7b39c5d8e14ed4e3a7f6f0bc26d777b774aa645
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
+Package: ros-jazzy-is-ros2
+Version: 1.2.3-0noble
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 484
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-is-core (>= 1.1.3), ros-jazzy-rclcpp, ros-jazzy-xtypes
+Filename: ./ros-jazzy-is-ros2_1.2.3-0noble_amd64.deb
+Size: 115532
+MD5sum: ada14634abbccc3a94c4a32d6930c9ba
+SHA1: 1c741094172d99818306bfa0d9ddf76dc96f88ad
+SHA256: 9910bd3bb829731d4e6c2efad2b67963e0fe0c63eaf1a8b586234629520d64c4
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -5206,21 +5236,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.12.1-0noble
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 257
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.12.1-0noble_arm64.deb
-Size: 55446
-MD5sum: e169b8669e6d13a061042aa793ddb258
-SHA1: 568696c8c6bcc82aa8cb2fb8e9b862977f3824b7
-SHA256: a03ca961587b88f238a0b006e8a455466a59c55a08bc0f1f990138602d9597bd
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.12.1-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 257
@@ -5230,6 +5245,21 @@ Size: 55440
 MD5sum: 28fbbff8690c01e6f7fdc35f376239e4
 SHA1: a462df032013bd5fac8ea6c7d884c8467ff2b924
 SHA256: f408278c5e583a981c5fa6ec85775fac9fe9e84b925f585693f3d6a2b39050c5
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.12.1-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 257
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.12.1-0noble_arm64.deb
+Size: 55446
+MD5sum: e169b8669e6d13a061042aa793ddb258
+SHA1: 568696c8c6bcc82aa8cb2fb8e9b862977f3824b7
+SHA256: a03ca961587b88f238a0b006e8a455466a59c55a08bc0f1f990138602d9597bd
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5326,21 +5356,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.14.0-0noble
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 304
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.14.0-0noble_arm64.deb
-Size: 63068
-MD5sum: 85e23c6590241f50c25f45396edcc49e
-SHA1: e31cc67c827e9f86e2d216df7b50ca19ae5899c3
-SHA256: c82c88c9a293bfbebafc8c66b0f10457fb503943927e3d8ecab7fc76d867863a
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.14.0-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 304
@@ -5350,6 +5365,21 @@ Size: 63048
 MD5sum: 39673d458fee0f9afd6cc3a3107e37aa
 SHA1: fc8a0e01781fa63fe5f56cc1c96f7012c9111467
 SHA256: 6848929e6889f4361147ddc0672699cb029bcc6f4672dde83e5b408c299a6283
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.14.0-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 304
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.14.0-0noble_arm64.deb
+Size: 63068
+MD5sum: 85e23c6590241f50c25f45396edcc49e
+SHA1: e31cc67c827e9f86e2d216df7b50ca19ae5899c3
+SHA256: c82c88c9a293bfbebafc8c66b0f10457fb503943927e3d8ecab7fc76d867863a
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5386,21 +5416,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.15.0-0noble
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 333
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.15.0-0noble_arm64.deb
-Size: 67860
-MD5sum: 0cd2d18ced6163f5ba9f15b9d1695741
-SHA1: 91ec31a12a0c60279808fc396a915b490e208812
-SHA256: 4f0dc09b6ed355a8e606079306147f2d2e43407d179ca95e5264990a523b9ef2
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.15.0-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 333
@@ -5415,16 +5430,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
-Version: 1.16.0-0noble
+Version: 1.15.0-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 333
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.16.0-0noble_arm64.deb
-Size: 67966
-MD5sum: 43a807afe6f974c6668bad349ee877d4
-SHA1: bee169f82f2e3c515dfcbac2f6bd5652f387ca18
-SHA256: a61454b6b66c1a16f8809bdddd248e388f78f2b1a02c03495cd79d5d7779a55a
+Filename: ./ros-jazzy-launch-ext_1.15.0-0noble_arm64.deb
+Size: 67860
+MD5sum: 0cd2d18ced6163f5ba9f15b9d1695741
+SHA1: 91ec31a12a0c60279808fc396a915b490e208812
+SHA256: 4f0dc09b6ed355a8e606079306147f2d2e43407d179ca95e5264990a523b9ef2
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5445,16 +5460,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
-Version: 1.17.0-0noble
-Architecture: amd64
+Version: 1.16.0-0noble
+Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 338
+Installed-Size: 333
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.17.0-0noble_amd64.deb
-Size: 68618
-MD5sum: addeb1572e9d733dd6838a05df503f0f
-SHA1: c2bb925becf10be835871f2ed9bf995f371d2f9b
-SHA256: 0c2c18504afee153635c090397a223c23539d8f38787173e0ac72d21d1da36d1
+Filename: ./ros-jazzy-launch-ext_1.16.0-0noble_arm64.deb
+Size: 67966
+MD5sum: 43a807afe6f974c6668bad349ee877d4
+SHA1: bee169f82f2e3c515dfcbac2f6bd5652f387ca18
+SHA256: a61454b6b66c1a16f8809bdddd248e388f78f2b1a02c03495cd79d5d7779a55a
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5470,6 +5485,21 @@ Size: 68626
 MD5sum: f2d2cb20dcde3fe5c8ec96681e465447
 SHA1: 0272a63212eede3da7d3da5ae0f50e3ea2536329
 SHA256: 2a3f2ee7381670c0a2e27ae713274dfaa3bacb338f02d97f0f6d48ecb980de13
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.17.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.17.0-0noble_amd64.deb
+Size: 68618
+MD5sum: addeb1572e9d733dd6838a05df503f0f
+SHA1: c2bb925becf10be835871f2ed9bf995f371d2f9b
+SHA256: 0c2c18504afee153635c090397a223c23539d8f38787173e0ac72d21d1da36d1
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5536,21 +5566,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.17.3-0noble
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 338
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.17.3-0noble_amd64.deb
-Size: 68920
-MD5sum: cf5bd0ccb404e0e0dd54b94124ddcf52
-SHA1: a8ebe5f54126abf47d647962f7d444e70bae5028
-SHA256: 3c037503c095a98a468c906f232d7db07946154fffd3d9de0a44a75198b7dcf7
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.17.3-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 338
@@ -5565,16 +5580,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
-Version: 1.18.0-0noble
+Version: 1.17.3-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 345
+Installed-Size: 338
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.18.0-0noble_amd64.deb
-Size: 70210
-MD5sum: 1c2295b3b686ddd60174787da3c735e1
-SHA1: 02e786bd8e63afe99b3849495feecf91aabc432a
-SHA256: e8956636bc4c2f80ac90bc9be12368a57383dfba8f105dc8aedb35aa11cfff1f
+Filename: ./ros-jazzy-launch-ext_1.17.3-0noble_amd64.deb
+Size: 68920
+MD5sum: cf5bd0ccb404e0e0dd54b94124ddcf52
+SHA1: a8ebe5f54126abf47d647962f7d444e70bae5028
+SHA256: 3c037503c095a98a468c906f232d7db07946154fffd3d9de0a44a75198b7dcf7
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5590,6 +5605,21 @@ Size: 70236
 MD5sum: e87226d6012e747ec86b24f77dc7808f
 SHA1: 291336fa6b3f4e3015cf329872a0cd7f0ef79a94
 SHA256: b091bfa52c0287d536c46e18b987de12dd52a0826a90e4ec9b068c81c9e99c21
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.18.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 345
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.18.0-0noble_amd64.deb
+Size: 70210
+MD5sum: 1c2295b3b686ddd60174787da3c735e1
+SHA1: 02e786bd8e63afe99b3849495feecf91aabc432a
+SHA256: e8956636bc4c2f80ac90bc9be12368a57383dfba8f105dc8aedb35aa11cfff1f
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5626,21 +5656,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.19.0-0noble
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 358
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.19.0-0noble_arm64.deb
-Size: 71522
-MD5sum: 8c510a26f4503d7b9ac247d6240b6a91
-SHA1: c993708de46a6334e2da53af8737b170938edf5a
-SHA256: e90bab6b796fb9a0b16823e9f73b75aaac37913835277b79cc56490c2cc707e6
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.19.0-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 358
@@ -5655,16 +5670,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
-Version: 1.19.1-0noble
+Version: 1.19.0-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 358
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.19.1-0noble_arm64.deb
-Size: 71554
-MD5sum: 847773a4eef34585260cfa8de414ff10
-SHA1: 2a829b3cd6c86c6f238e316bf81718eacda6bf4a
-SHA256: 1afd6dc8d80aa3ef9ed5e5b8a325bf3cb9daad05977c6203bacc5d02c3363987
+Filename: ./ros-jazzy-launch-ext_1.19.0-0noble_arm64.deb
+Size: 71522
+MD5sum: 8c510a26f4503d7b9ac247d6240b6a91
+SHA1: c993708de46a6334e2da53af8737b170938edf5a
+SHA256: e90bab6b796fb9a0b16823e9f73b75aaac37913835277b79cc56490c2cc707e6
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5680,6 +5695,21 @@ Size: 71556
 MD5sum: 099e6b7e02d8e733aabfdf460191fce5
 SHA1: 55255d3c93d20b20dd471e24ec01164668ae3550
 SHA256: c7704bfd2a436c2d87b91e394505e5d5e56a9dcef0560bb46c09e68590e3aa9e
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.19.1-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 358
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.1-0noble_arm64.deb
+Size: 71554
+MD5sum: 847773a4eef34585260cfa8de414ff10
+SHA1: 2a829b3cd6c86c6f238e316bf81718eacda6bf4a
+SHA256: 1afd6dc8d80aa3ef9ed5e5b8a325bf3cb9daad05977c6203bacc5d02c3363987
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5716,21 +5746,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.19.3-0noble
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 375
-Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
-Filename: ./ros-jazzy-launch-ext_1.19.3-0noble_arm64.deb
-Size: 74536
-MD5sum: 2be7d3b2d4e8fb9ca8607e8ea5b77d0f
-SHA1: 5afadeee478d3700651a26ec87afcad690fa4a38
-SHA256: 9058bc57957240a6a1ae9a5f44745ec5d5b6e702f916831d3d3b218e8ebc8f12
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-jazzy-launch-ext
-Version: 1.19.3-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 375
@@ -5740,6 +5755,21 @@ Size: 74542
 MD5sum: 7eb9bc5b0367b2b382bd67a20534653e
 SHA1: aff842511ce463b1837ec41cfdd8efe59f61881f
 SHA256: e0a794cf63dee5474a87ed78c36fcd954d928518b5a7980721285ece841eb4b9
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.19.3-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.3-0noble_arm64.deb
+Size: 74536
+MD5sum: 2be7d3b2d4e8fb9ca8607e8ea5b77d0f
+SHA1: 5afadeee478d3700651a26ec87afcad690fa4a38
+SHA256: 9058bc57957240a6a1ae9a5f44745ec5d5b6e702f916831d3d3b218e8ebc8f12
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5836,22 +5866,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-libxmlmm
 Version: 1.0.0-0noble
-Architecture: arm64
-Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
-Installed-Size: 124
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4), libxml2-dev
-Filename: ./ros-jazzy-libxmlmm_1.0.0-0noble_arm64.deb
-Size: 23588
-MD5sum: bc9829060a9aa24e25b52b35ff89afe8
-SHA1: b677afd8f7f5bc3b583afee1107b36dddb043125
-SHA256: f51b6582186bfb20b496894be67dc0248a760516897a136b19a35a9e3db57222
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/libxmlmm
-Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
-
-Package: ros-jazzy-libxmlmm
-Version: 1.0.0-0noble
 Architecture: amd64
 Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
 Installed-Size: 125
@@ -5866,20 +5880,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/libxmlmm
 Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
-Package: ros-jazzy-parameter-traits
-Version: 10.0.1-0noble
+Package: ros-jazzy-libxmlmm
+Version: 1.0.0-0noble
 Architecture: arm64
-Maintainer: Tyler Weaver <maybe@tylerjw.dev>
-Installed-Size: 59
-Depends: libfmt-dev, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
-Filename: ./ros-jazzy-parameter-traits_10.0.1-0noble_arm64.deb
-Size: 9730
-MD5sum: eac775b17ce3792a670a5c45f0444e77
-SHA1: ae2b9ae21756ebbc5e41ab0f455371dcad5ce9c7
-SHA256: bddbcd5bba23ddfbdf021ebd0e000ac0ae122064e65518d281f700683306f81e
+Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4), libxml2-dev
+Filename: ./ros-jazzy-libxmlmm_1.0.0-0noble_arm64.deb
+Size: 23588
+MD5sum: bc9829060a9aa24e25b52b35ff89afe8
+SHA1: b677afd8f7f5bc3b583afee1107b36dddb043125
+SHA256: f51b6582186bfb20b496894be67dc0248a760516897a136b19a35a9e3db57222
 Section: misc
 Priority: optional
-Description: Functions and types for rclcpp::Parameter
+Homepage: https://github.com/Greenroom-Robotics/libxmlmm
+Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
 Package: ros-jazzy-parameter-traits
 Version: 10.0.1-0noble
@@ -5896,20 +5911,20 @@ Section: misc
 Priority: optional
 Description: Functions and types for rclcpp::Parameter
 
-Package: ros-jazzy-pwmdriver
-Version: 1.1.2-0noble
+Package: ros-jazzy-parameter-traits
+Version: 10.0.1-0noble
 Architecture: arm64
-Maintainer: Russ Webber <russ@rw.id.au>
-Installed-Size: 574
-Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-rclcpp, ros-jazzy-std-msgs
-Filename: ./ros-jazzy-pwmdriver_1.1.2-0noble_arm64.deb
-Size: 118514
-MD5sum: 15468426c564eec21f03f39568820bdf
-SHA1: 0672eb396ba5991c4901daa19a6bdc4b183e4e0d
-SHA256: ab4bb677a9bf40a05a25b0ce5f9952a3bd9050e3d34e18854c8efc16d014f3a4
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 59
+Depends: libfmt-dev, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-parameter-traits_10.0.1-0noble_arm64.deb
+Size: 9730
+MD5sum: eac775b17ce3792a670a5c45f0444e77
+SHA1: ae2b9ae21756ebbc5e41ab0f455371dcad5ce9c7
+SHA256: bddbcd5bba23ddfbdf021ebd0e000ac0ae122064e65518d281f700683306f81e
 Section: misc
 Priority: optional
-Description: ROS2 Driver for the Linux PWM Interface
+Description: Functions and types for rclcpp::Parameter
 
 Package: ros-jazzy-pwmdriver
 Version: 1.1.2-0noble
@@ -5927,16 +5942,16 @@ Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
 Package: ros-jazzy-pwmdriver
-Version: 1.1.3-0noble
+Version: 1.1.2-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ@rw.id.au>
 Installed-Size: 574
 Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-rclcpp, ros-jazzy-std-msgs
-Filename: ./ros-jazzy-pwmdriver_1.1.3-0noble_arm64.deb
-Size: 119028
-MD5sum: d40e17ad63e24bf9dc7f511baed2790e
-SHA1: 224e360870039308b92d66f9b011d1427ed64474
-SHA256: 03a3f9034fef5427360121f6d05d7cc69e6049b2a9f3f1ee9434396e56cf4898
+Filename: ./ros-jazzy-pwmdriver_1.1.2-0noble_arm64.deb
+Size: 118514
+MD5sum: 15468426c564eec21f03f39568820bdf
+SHA1: 0672eb396ba5991c4901daa19a6bdc4b183e4e0d
+SHA256: ab4bb677a9bf40a05a25b0ce5f9952a3bd9050e3d34e18854c8efc16d014f3a4
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -5952,6 +5967,21 @@ Size: 126860
 MD5sum: 73aa1c82842190f481ac491cf25ac347
 SHA1: d4472f3cfedc785df8dfdac9aac5e5ff5c1d9e74
 SHA256: 367524d1d1dd28257fa533071710b3340715628d2150551e9d543219789defd7
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
+Package: ros-jazzy-pwmdriver
+Version: 1.1.3-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 574
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-rclcpp, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-pwmdriver_1.1.3-0noble_arm64.deb
+Size: 119028
+MD5sum: d40e17ad63e24bf9dc7f511baed2790e
+SHA1: 224e360870039308b92d66f9b011d1427ed64474
+SHA256: 03a3f9034fef5427360121f6d05d7cc69e6049b2a9f3f1ee9434396e56cf4898
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
@@ -6004,22 +6034,6 @@ Description: Generate stub files for the ROS2 interfaces in Python
 
 Package: ros-jazzy-septentrio-gnss-driver
 Version: 1.4.2-0noble
-Architecture: amd64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9108
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
-Filename: ./ros-jazzy-septentrio-gnss-driver_1.4.2-0noble_amd64.deb
-Size: 1026880
-MD5sum: a266f3168f101b99286264608fcb0f44
-SHA1: a0e042ee3306aa30cfe8d42f339969e1a5e77df1
-SHA256: 60c25594f0fe9e011aea88961e3ca3ecc1c2c10c1bc4ce76064d47e075957aa0
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-jazzy-septentrio-gnss-driver
-Version: 1.4.2-0noble
 Architecture: arm64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 9414
@@ -6035,16 +6049,16 @@ Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-jazzy-septentrio-gnss-driver
-Version: 1.5.0-0noble
+Version: 1.4.2-0noble
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9312
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
-Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.0-0noble_amd64.deb
-Size: 1060142
-MD5sum: 49b365a691a2ab2fbe95cb7ba7820102
-SHA1: f0beb5fdadd4d4b1d11b3e8e221495e99206570d
-SHA256: 2b58e9b846300eb57a8d6adf82ceff29e761f0326d97ad172bbc8906ad9d06f4
+Installed-Size: 9108
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.4.2-0noble_amd64.deb
+Size: 1026880
+MD5sum: a266f3168f101b99286264608fcb0f44
+SHA1: a0e042ee3306aa30cfe8d42f339969e1a5e77df1
+SHA256: 60c25594f0fe9e011aea88961e3ca3ecc1c2c10c1bc4ce76064d47e075957aa0
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -6061,6 +6075,22 @@ Size: 1002580
 MD5sum: e2b39915bd11784fbea0a021896b36e1
 SHA1: 76463b12276d2f36abbd0abcc54cd93a4a7a3c5a
 SHA256: 58047ba4a931a9928f6bf4867a382b7bc3140fccfa67187d989c2d702e2c4679
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-jazzy-septentrio-gnss-driver
+Version: 1.5.0-0noble
+Architecture: amd64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9312
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.0-0noble_amd64.deb
+Size: 1060142
+MD5sum: 49b365a691a2ab2fbe95cb7ba7820102
+SHA1: f0beb5fdadd4d4b1d11b3e8e221495e99206570d
+SHA256: 2b58e9b846300eb57a8d6adf82ceff29e761f0326d97ad172bbc8906ad9d06f4
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -6100,22 +6130,6 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-jazzy-septentrio-gnss-driver
 Version: 1.5.2-0noble
-Architecture: arm64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9613
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
-Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.2-0noble_arm64.deb
-Size: 1002908
-MD5sum: 963a31dc40b9bd363eb12ae11d55b59a
-SHA1: 6bda851982176bd6adc73f0aa6754b3f34aafdbe
-SHA256: e97fc92b6b58d012dd8767a31952d84cc3204b082bb868f9e8bbd8bea76361b1
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-jazzy-septentrio-gnss-driver
-Version: 1.5.2-0noble
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 9315
@@ -6131,16 +6145,16 @@ Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-jazzy-septentrio-gnss-driver
-Version: 1.5.3-0noble
-Architecture: amd64
+Version: 1.5.2-0noble
+Architecture: arm64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9336
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
-Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.3-0noble_amd64.deb
-Size: 1065420
-MD5sum: 4a86b8ff5fb9c90b62de742684c19aa8
-SHA1: b23f3cd134de39c5fae3aa639470939fa456cfcf
-SHA256: 4d9d71842281ac28b9d3f24fed000c4a74412bebf3b803a93c41ab163325f9e4
+Installed-Size: 9613
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.2-0noble_arm64.deb
+Size: 1002908
+MD5sum: 963a31dc40b9bd363eb12ae11d55b59a
+SHA1: 6bda851982176bd6adc73f0aa6754b3f34aafdbe
+SHA256: e97fc92b6b58d012dd8767a31952d84cc3204b082bb868f9e8bbd8bea76361b1
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -6157,6 +6171,22 @@ Size: 1004860
 MD5sum: a198d6155d9154aae5b7cdb624d5a751
 SHA1: 893464b6861cc2a53e21fd741c7f49d021694183
 SHA256: 45613ee66f552633bbb48c4c7896f19edbb402bb61cd202948a3c8a9bc5a57bb
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-jazzy-septentrio-gnss-driver
+Version: 1.5.3-0noble
+Architecture: amd64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9336
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.3-0noble_amd64.deb
+Size: 1065420
+MD5sum: 4a86b8ff5fb9c90b62de742684c19aa8
+SHA1: b23f3cd134de39c5fae3aa639470939fa456cfcf
+SHA256: 4d9d71842281ac28b9d3f24fed000c4a74412bebf3b803a93c41ab163325f9e4
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -6196,22 +6226,6 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-jazzy-septentrio-gnss-driver
 Version: 1.6.0-0noble
-Architecture: arm64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9622
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
-Filename: ./ros-jazzy-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
-Size: 1008906
-MD5sum: bd632769505d35f835471eba199d2328
-SHA1: 2248a98563e4c24d8b45d0521d38a7808c3bd21f
-SHA256: a7c25ca60ac864eda1e1e8358545d235e72a19db218a5872ef4e41c948b46b4f
-Section: misc
-Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
-
-Package: ros-jazzy-septentrio-gnss-driver
-Version: 1.6.0-0noble
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 9320
@@ -6221,6 +6235,22 @@ Size: 1063702
 MD5sum: 5e4383b84350f2c10a0fcd133c84308c
 SHA1: 3d87aedc0454c7760891cd7b5c9935215227db3d
 SHA256: 50d1412c96293fa51135af0c09d20e1990ef2e6ddf0f4232c2c0f2dc2591bfd6
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-jazzy-septentrio-gnss-driver
+Version: 1.6.0-0noble
+Architecture: arm64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9622
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
+Size: 1008906
+MD5sum: bd632769505d35f835471eba199d2328
+SHA1: 2248a98563e4c24d8b45d0521d38a7808c3bd21f
+SHA256: a7c25ca60ac864eda1e1e8358545d235e72a19db218a5872ef4e41c948b46b4f
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -6258,22 +6288,6 @@ Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/sp
 
 Package: ros-kilted-diagnostic-aggregator
 Version: 10.1.1-0noble
-Architecture: amd64
-Maintainer: Austin Hendrix <namniart@gmail.com>
-Installed-Size: 1545
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
-Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_amd64.deb
-Size: 346666
-MD5sum: b18c74fd834fa4e6c4968d1ad23242fa
-SHA1: 021f127a2f5b370c6945efb5414deea61a0840bc
-SHA256: b8e1fd166e1bf6b2a18c0c6b80067c63f0498ffb9d7b7dc94f19949c50d3bfb2
-Section: misc
-Priority: optional
-Homepage: http://www.ros.org/wiki/diagnostic_aggregator
-Description: diagnostic_aggregator
-
-Package: ros-kilted-diagnostic-aggregator
-Version: 10.1.1-0noble
 Architecture: arm64
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1647
@@ -6283,6 +6297,22 @@ Size: 320860
 MD5sum: 9abba426a2449c326633639f158765f5
 SHA1: a8311d7cb2a5d7594a6781620694db3c7d935def
 SHA256: 857e3cf45c1244b339c8e592497fb6851a88202e1ac70160562c9e1c0f5ad2c8
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
+Package: ros-kilted-diagnostic-aggregator
+Version: 10.1.1-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1545
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
+Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_amd64.deb
+Size: 346666
+MD5sum: b18c74fd834fa4e6c4968d1ad23242fa
+SHA1: 021f127a2f5b370c6945efb5414deea61a0840bc
+SHA256: b8e1fd166e1bf6b2a18c0c6b80067c63f0498ffb9d7b7dc94f19949c50d3bfb2
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -6354,21 +6384,6 @@ Description: ROS Foxglove Bridge
 
 Package: ros-kilted-generate-parameter-library
 Version: 10.0.1-0noble
-Architecture: amd64
-Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 53
-Depends: libfmt-dev, ros-kilted-generate-parameter-library-py, ros-kilted-parameter-traits, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-rclpy, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
-Filename: ./ros-kilted-generate-parameter-library_10.0.1-0noble_amd64.deb
-Size: 8592
-MD5sum: fde28bdbe892fa1bec5d64d503ba3c93
-SHA1: 92f697e2eb6f656dbaa0d3050506f96b29a158ea
-SHA256: 17d9158c11d32cd6e1aa087f985cc49a1f99a40a2ae64bdbef6b077860edbb08
-Section: misc
-Priority: optional
-Description: CMake to generate ROS parameter library.
-
-Package: ros-kilted-generate-parameter-library
-Version: 10.0.1-0noble
 Architecture: arm64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
 Installed-Size: 53
@@ -6382,20 +6397,20 @@ Section: misc
 Priority: optional
 Description: CMake to generate ROS parameter library.
 
-Package: ros-kilted-generate-parameter-library-py
-Version: 10.2.1-0noble
-Architecture: arm64
+Package: ros-kilted-generate-parameter-library
+Version: 10.0.1-0noble
+Architecture: amd64
 Maintainer: Paul Gesel <paul.gesel@picknik.ai>
-Installed-Size: 284
-Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
-Filename: ./ros-kilted-generate-parameter-library-py_10.2.1-0noble_arm64.deb
-Size: 53928
-MD5sum: bd48a3474c49feeb4a9336a32eaa8b05
-SHA1: 5831ddca2563ef5b730d105e3bf5ce2d77dba2db
-SHA256: 7ae6817f5bdb8921add6dba935bbdcb910caec8aecdcc32e9304b88eaa48fb4f
+Installed-Size: 53
+Depends: libfmt-dev, ros-kilted-generate-parameter-library-py, ros-kilted-parameter-traits, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-rclpy, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
+Filename: ./ros-kilted-generate-parameter-library_10.0.1-0noble_amd64.deb
+Size: 8592
+MD5sum: fde28bdbe892fa1bec5d64d503ba3c93
+SHA1: 92f697e2eb6f656dbaa0d3050506f96b29a158ea
+SHA256: 17d9158c11d32cd6e1aa087f985cc49a1f99a40a2ae64bdbef6b077860edbb08
 Section: misc
 Priority: optional
-Description: Python to generate ROS parameter library.
+Description: CMake to generate ROS parameter library.
 
 Package: ros-kilted-generate-parameter-library-py
 Version: 10.2.1-0noble
@@ -6408,6 +6423,21 @@ Size: 53918
 MD5sum: 53c103ba22362f0e07a493941bb5eb16
 SHA1: 0585226f99eac3ed005216223f3fc55e90007f85
 SHA256: 5c387010b13a3e53e11a69b90a63b2181deb981bf00efaf1dc4081a14ee32ae8
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-kilted-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-kilted-generate-parameter-library-py_10.2.1-0noble_arm64.deb
+Size: 53928
+MD5sum: bd48a3474c49feeb4a9336a32eaa8b05
+SHA1: 5831ddca2563ef5b730d105e3bf5ce2d77dba2db
+SHA256: 7ae6817f5bdb8921add6dba935bbdcb910caec8aecdcc32e9304b88eaa48fb4f
 Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
@@ -6598,21 +6628,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-kilted-launch-ext
 Version: 1.17.1-0noble
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 338
-Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
-Filename: ./ros-kilted-launch-ext_1.17.1-0noble_amd64.deb
-Size: 68906
-MD5sum: 61b1a6a6f77a4d2ad7a94e521358a96f
-SHA1: 7c6ef488c1724cf98e92f023343b57a9aa588938
-SHA256: 58d6b85f2f84449677b907a39a9c5d9b070872c462d5537deef1f99c8ffbe367
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-kilted-launch-ext
-Version: 1.17.1-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 338
@@ -6622,6 +6637,21 @@ Size: 68930
 MD5sum: cf452756fa388b98b72327f56493dd28
 SHA1: 45a68b101fddfa78a91166f1ad6c4b0971905564
 SHA256: 45fc75e3504779f3e1e724d06998ae01497f0aa702f77d94c6e851facdee3db7
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.17.1-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.1-0noble_amd64.deb
+Size: 68906
+MD5sum: 61b1a6a6f77a4d2ad7a94e521358a96f
+SHA1: 7c6ef488c1724cf98e92f023343b57a9aa588938
+SHA256: 58d6b85f2f84449677b907a39a9c5d9b070872c462d5537deef1f99c8ffbe367
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -6748,21 +6778,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-kilted-launch-ext
 Version: 1.19.0-0noble
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 358
-Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
-Filename: ./ros-kilted-launch-ext_1.19.0-0noble_amd64.deb
-Size: 71540
-MD5sum: 9b8520e117ef2cc9075b14cfc42fcb01
-SHA1: 5fa1b9b16a84fba8eaeda845cc2f3e5dcf00bc33
-SHA256: 5bfad929823943d15e591343d9d5be69f5670ed3974051cf44f17f30aa684f1a
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-kilted-launch-ext
-Version: 1.19.0-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 358
@@ -6772,6 +6787,21 @@ Size: 71548
 MD5sum: 386977bb5844925a8f5293a1d5586c1a
 SHA1: 12fa6203826048211d8f6acbbf33db46dc6d326f
 SHA256: 1fe09ddf0536ceee59a86a004da1a8d3acbaa747bb82ccbcd0af79d4d0196a0c
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.19.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 358
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.19.0-0noble_amd64.deb
+Size: 71540
+MD5sum: 9b8520e117ef2cc9075b14cfc42fcb01
+SHA1: 5fa1b9b16a84fba8eaeda845cc2f3e5dcf00bc33
+SHA256: 5bfad929823943d15e591343d9d5be69f5670ed3974051cf44f17f30aa684f1a
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -6898,21 +6928,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-kilted-launch-ext
 Version: 1.19.5-0noble
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 375
-Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
-Filename: ./ros-kilted-launch-ext_1.19.5-0noble_amd64.deb
-Size: 74528
-MD5sum: a47dbadab81b6688e4ccee20bb7545ee
-SHA1: 7afec10b63ff098c22e123a69cca3e4bb35451aa
-SHA256: 31601119c4cf43e29c9fca6c264e7e4abe2cd3ae65efebbe155f980ea900c84a
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-kilted-launch-ext
-Version: 1.19.5-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 375
@@ -6922,6 +6937,21 @@ Size: 74544
 MD5sum: c14c6cc47eeca9dfabcb57faf3434576
 SHA1: afb915493c68f5366a837385dcb6276fd224a84c
 SHA256: f3b717a3ea389430f674640db6505a08068199465102e90c8ba68815f38c3458
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.19.5-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.19.5-0noble_amd64.deb
+Size: 74528
+MD5sum: a47dbadab81b6688e4ccee20bb7545ee
+SHA1: 7afec10b63ff098c22e123a69cca3e4bb35451aa
+SHA256: 31601119c4cf43e29c9fca6c264e7e4abe2cd3ae65efebbe155f980ea900c84a
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -7046,6 +7076,21 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-kilted-launch-ext
+Version: 1.22.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 412
+Depends: python3-git, python3-jinja2, python3-psutil, ros-kilted-launch
+Filename: ./ros-kilted-launch-ext_1.22.0-0noble_amd64.deb
+Size: 83606
+MD5sum: e1de310b7cfa5a7ef7e0f71cbb606eb8
+SHA1: cd7928cf290f0ba8e4323d7b5b85247eb80c7252
+SHA256: 2460405b7338cd0b8d0d83eb41a5804d2e80f34edd1fe793ef2e9525ff54be4c
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-kilted-parameter-traits
 Version: 10.0.1-0noble
 Architecture: arm64
@@ -7078,21 +7123,6 @@ Description: Functions and types for rclcpp::Parameter
 
 Package: ros-kilted-rosidl-generator-mypy
 Version: 0.2.1-0noble
-Architecture: amd64
-Maintainer: Yuki Igarashi <me@bonprosoft.com>
-Installed-Size: 98
-Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
-Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_amd64.deb
-Size: 14008
-MD5sum: b17c69818d5d20f147a193dc9e7f16da
-SHA1: c8c386649623815b327233feeb6db43707ac7908
-SHA256: 9ef6a66d3fb266e01857c8ffd9f299f1925e3ae42a13709f0e5f15bdbf539fdb
-Section: misc
-Priority: optional
-Description: Generate stub files for the ROS2 interfaces in Python
-
-Package: ros-kilted-rosidl-generator-mypy
-Version: 0.2.1-0noble
 Architecture: arm64
 Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 98
@@ -7106,21 +7136,20 @@ Section: misc
 Priority: optional
 Description: Generate stub files for the ROS2 interfaces in Python
 
-Package: ros-kilted-septentrio-gnss-driver
-Version: 1.6.0-0noble
-Architecture: arm64
-Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 9619
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-kilted-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-kilted-diagnostic-msgs, ros-kilted-diagnostic-updater, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-tf2, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros
-Filename: ./ros-kilted-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
-Size: 1007216
-MD5sum: 7d3ef762c43dcfc25fb4d5dc01ee8efa
-SHA1: 9b9946f90c9eacc135e160565db1ff19b112da7d
-SHA256: 7523fcb77b790363c2b8eb7777950e177922d899ec41057bdd14235db693dcc0
+Package: ros-kilted-rosidl-generator-mypy
+Version: 0.2.1-0noble
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
+Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_amd64.deb
+Size: 14008
+MD5sum: b17c69818d5d20f147a193dc9e7f16da
+SHA1: c8c386649623815b327233feeb6db43707ac7908
+SHA256: 9ef6a66d3fb266e01857c8ffd9f299f1925e3ae42a13709f0e5f15bdbf539fdb
 Section: misc
 Priority: optional
-Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
-Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+Description: Generate stub files for the ROS2 interfaces in Python
 
 Package: ros-kilted-septentrio-gnss-driver
 Version: 1.6.0-0noble
@@ -7138,20 +7167,21 @@ Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
-Package: ros-kilted-xtypes
-Version: 1.1.2-0noble
+Package: ros-kilted-septentrio-gnss-driver
+Version: 1.6.0-0noble
 Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 635
-Filename: ./ros-kilted-xtypes_1.1.2-0noble_arm64.deb
-Size: 84056
-MD5sum: cdd00ddba967059e3a44ccccc1234ce2
-SHA1: f14a14c8073ff37a44e77e65db4c6cfac052c08a
-SHA256: ee48af0bc96f0dcbdcab6ec230855666f2f8192be10ee6f2461593a5c667c21b
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9619
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-kilted-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-kilted-diagnostic-msgs, ros-kilted-diagnostic-updater, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-tf2, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros
+Filename: ./ros-kilted-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
+Size: 1007216
+MD5sum: 7d3ef762c43dcfc25fb4d5dc01ee8efa
+SHA1: 9b9946f90c9eacc135e160565db1ff19b112da7d
+SHA256: 7523fcb77b790363c2b8eb7777950e177922d899ec41057bdd14235db693dcc0
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/xtypes
-Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-kilted-xtypes
 Version: 1.1.2-0noble
@@ -7163,6 +7193,21 @@ Size: 84008
 MD5sum: 177e6e069ef25e1243993d82ee09c9bb
 SHA1: f11d81cfa34f68ce36a425014c9ca04d96f956f2
 SHA256: fbf052ea93e18847f2447d39fc8abe25ce31e748f26440e32f3cf425cd19fc4b
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-kilted-xtypes
+Version: 1.1.2-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-kilted-xtypes_1.1.2-0noble_arm64.deb
+Size: 84056
+MD5sum: cdd00ddba967059e3a44ccccc1234ce2
+SHA1: f14a14c8073ff37a44e77e65db4c6cfac052c08a
+SHA256: ee48af0bc96f0dcbdcab6ec230855666f2f8192be10ee6f2461593a5c667c21b
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
