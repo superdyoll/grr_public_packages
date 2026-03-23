@@ -2921,6 +2921,21 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
+Version: 1.22.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 367
+Depends: python3-git, python3-jinja2, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.22.1-0jammy_amd64.deb
+Size: 67398
+MD5sum: f4de5d052980c1d28d695a76fb7a1b3f
+SHA1: 0508e94ed2326c030f4d229296ecdc9d200e002f
+SHA256: 33ea5823dcbb5e0f81e915d3e7ab313f46161b811ac5a79aa11ac0aea2f7e8bd
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
 Version: 1.5.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
@@ -7117,6 +7132,36 @@ Size: 83606
 MD5sum: e1de310b7cfa5a7ef7e0f71cbb606eb8
 SHA1: cd7928cf290f0ba8e4323d7b5b85247eb80c7252
 SHA256: 2460405b7338cd0b8d0d83eb41a5804d2e80f34edd1fe793ef2e9525ff54be4c
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.22.1-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 412
+Depends: python3-git, python3-jinja2, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.22.1-0noble_amd64.deb
+Size: 83606
+MD5sum: 47e48775042718f8240e698b616eaa71
+SHA1: 089095bb0c973099b720d9e4ea178fd9f0fa5afd
+SHA256: 2b1045467867f51b9cdd664557f7df60bc12f8c2ebd2719a48597e750d37948b
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.22.1-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 412
+Depends: python3-git, python3-jinja2, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.22.1-0noble_arm64.deb
+Size: 83594
+MD5sum: 2445a09e2cbdf7ced1dd5a9a1e46725b
+SHA1: a130dc1d0ae5a6d3cf14a39d4da37a29cc235aa9
+SHA256: 2b84eb309a854a789cf7c84d9d9e86927364035a4663cdb7baaa724385addad1
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
