@@ -7258,6 +7258,21 @@ Description: Generate stub files for the ROS2 interfaces in Python
 
 Package: ros-kilted-rosidl-generator-pydantic
 Version: 1.0.0-0noble
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 103
+Depends: python3-pydantic, ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser
+Filename: ./ros-kilted-rosidl-generator-pydantic_1.0.0-0noble_arm64.deb
+Size: 15102
+MD5sum: 9f4247f36d88a80b0e897f5954a4c86e
+SHA1: d38ddc49a349db0a112e7d2de1230165e877bd77
+SHA256: ef626f9f2b2e184d1fa44807fcc9b6cc5d0fc62c534aea1f8712f1206183b9f8
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
+Package: ros-kilted-rosidl-generator-pydantic
+Version: 1.0.0-0noble
 Architecture: amd64
 Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 103
