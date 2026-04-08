@@ -7391,6 +7391,21 @@ Section: misc
 Priority: optional
 Description: Generate Pydantic models for ROS2 interfaces
 
+Package: ros-kilted-rosidl-generator-pydantic
+Version: 1.2.0-0noble
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 110
+Depends: python3-pydantic, ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser
+Filename: ./ros-kilted-rosidl-generator-pydantic_1.2.0-0noble_arm64.deb
+Size: 16822
+MD5sum: b489ae66cbfe5f7917a3fc5ae7ab477e
+SHA1: cafeb72f019d1fb9fcdd937484597b5a8c1479d5
+SHA256: b6af5d88ae6b4a491335c6da21a6d67687d58fd9728f21ac73f4014469c03bfb
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
 Package: ros-kilted-septentrio-gnss-driver
 Version: 1.6.0-0noble
 Architecture: amd64
