@@ -3909,6 +3909,36 @@ Section: misc
 Priority: optional
 Description: Generate Pydantic models for ROS2 interfaces
 
+Package: ros-iron-rosidl-generator-pydantic
+Version: 1.3.0-0jammy
+Architecture: arm64
+Maintainer: David Revay <david.revay@greenroomrobotics.com>
+Installed-Size: 111
+Depends: python3-pydantic, ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser
+Filename: ./ros-iron-rosidl-generator-pydantic_1.3.0-0jammy_arm64.deb
+Size: 16990
+MD5sum: 3f3e44bb3c6b689e0c25721d5565ae53
+SHA1: 44e8a907b6155c65b3a424ec965421f7ae9d5006
+SHA256: f7bda44af25c101e86d74fd95186b5e48fcbb6387a363957869d8da3ff4ff753
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
+Package: ros-iron-rosidl-generator-pydantic
+Version: 1.3.0-0jammy
+Architecture: amd64
+Maintainer: David Revay <david.revay@greenroomrobotics.com>
+Installed-Size: 111
+Depends: python3-pydantic, ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser
+Filename: ./ros-iron-rosidl-generator-pydantic_1.3.0-0jammy_amd64.deb
+Size: 16982
+MD5sum: 7dae11653a33c3dfb65e38094d3cc256
+SHA1: 2e06af6510a2c8879a514892351dfce3c65b0f92
+SHA256: 5282a6d251b7bce09819a47f798ee814ada59fe2edaa05a4362b697ae7f67a41
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.4.2-0jammy
 Architecture: amd64
