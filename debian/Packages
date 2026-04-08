@@ -3879,6 +3879,36 @@ Section: misc
 Priority: optional
 Description: Generate Pydantic models for ROS2 interfaces
 
+Package: ros-iron-rosidl-generator-pydantic
+Version: 1.2.0-0jammy
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 110
+Depends: python3-pydantic, ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser
+Filename: ./ros-iron-rosidl-generator-pydantic_1.2.0-0jammy_amd64.deb
+Size: 16802
+MD5sum: ceb75014dc7606e37cc1c3ae2383c9b0
+SHA1: 5262c4f6c58e78cd081cb0de852d8972ab5b4dbf
+SHA256: 7a5933ebccbf7826a88e24a57ce71853413d2f241fbfdfb00db4573fc5a7addd
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
+Package: ros-iron-rosidl-generator-pydantic
+Version: 1.2.0-0jammy
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 110
+Depends: python3-pydantic, ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser
+Filename: ./ros-iron-rosidl-generator-pydantic_1.2.0-0jammy_arm64.deb
+Size: 16808
+MD5sum: abb195b6959e8fe354306de3ef19163a
+SHA1: e6e76b906c3ec656f24550443d4a2504c1fc83bb
+SHA256: 40a5d329e3730bf2b55371f79c49e58a6c4383e56549e7c8b40498a12e21d12d
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.4.2-0jammy
 Architecture: amd64
@@ -7342,6 +7372,21 @@ Size: 15768
 MD5sum: 75dffdc48f948128db95fac2ef03debe
 SHA1: 003c7111522c7314bc91d9936ef02faade622cce
 SHA256: 21e220f38b0bacdd22520ee21dc4e51472042088ba32d9fe5c3d9e4a8e81676a
+Section: misc
+Priority: optional
+Description: Generate Pydantic models for ROS2 interfaces
+
+Package: ros-kilted-rosidl-generator-pydantic
+Version: 1.2.0-0noble
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 110
+Depends: python3-pydantic, ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser
+Filename: ./ros-kilted-rosidl-generator-pydantic_1.2.0-0noble_amd64.deb
+Size: 16820
+MD5sum: 7b596452ad0fc3853d330007c032ef25
+SHA1: 83ccddcf52dedf7f5bc7b1e1784fc3ec5a59bf25
+SHA256: 2bfd63ba131d72c0b79c78b3bae5c83cbdffac2aef050b096a91446733e092d9
 Section: misc
 Priority: optional
 Description: Generate Pydantic models for ROS2 interfaces
