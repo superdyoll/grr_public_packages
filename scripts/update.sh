@@ -20,8 +20,7 @@ ROS_VERSIONS=("noetic" "foxy" "galactic" "humble" "iron" "rolling" "jazzy")
 
 # Find all .deb files in the current directory, extract the part before 
 # the first '_', and get the unique names.
-# Note: If your .deb files are in a specific folder, change '.' to that path (e.g., './debs')
-UNIQUE_NAMES=$(find debian -maxdepth 1 -name "*.deb" -printf "%f\n" | cut -d'_' -f1 | sort -u)
+UNIQUE_NAMES=$(find debian -maxdepth 1 -name "*.deb" -printf "%f\n" | cut -d'_' -f1 | sed 's/^ros-[a-z]*-//' | sort -u)
 
 pushd rosdep
 

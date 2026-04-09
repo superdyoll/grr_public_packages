@@ -1,0 +1,68 @@
+argparse:
+    ubuntu: ros-iron-argparse
+canary:
+    ubuntu: ros-iron-canary
+diagnostic-aggregator:
+    ubuntu: ros-iron-diagnostic-aggregator
+emuc-b202-dkms:
+    ubuntu: ros-iron-emuc-b202-dkms
+emuc-b202-utils:
+    ubuntu: ros-iron-emuc-b202-utils
+foxglove-bridge:
+    ubuntu: ros-iron-foxglove-bridge
+generate-parameter-library:
+    ubuntu: ros-iron-generate-parameter-library
+generate-parameter-library-example:
+    ubuntu: ros-iron-generate-parameter-library-example
+generate-parameter-library-py:
+    ubuntu: ros-iron-generate-parameter-library-py
+generate-parameter-module-example:
+    ubuntu: ros-iron-generate-parameter-module-example
+hydrodynamics:
+    ubuntu: ros-iron-hydrodynamics
+is-core:
+    ubuntu: ros-iron-is-core
+is-ros2:
+    ubuntu: ros-iron-is-ros2
+is-ros2-mix-generator:
+    ubuntu: ros-iron-is-ros2-mix-generator
+launch-ext:
+    ubuntu: ros-iron-launch-ext
+libxmlmm:
+    ubuntu: ros-iron-libxmlmm
+parameter-traits:
+    ubuntu: ros-iron-parameter-traits
+pwmdriver:
+    ubuntu: ros-iron-pwmdriver
+px4-msgs:
+    ubuntu: ros-iron-px4-msgs
+rclue-rcutils:
+    ubuntu: ros-iron-rclue-rcutils
+ros2-bt-utils:
+    ubuntu: ros-iron-ros2-bt-utils
+rosapi:
+    ubuntu: ros-iron-rosapi
+rosapi-msgs:
+    ubuntu: ros-iron-rosapi-msgs
+rosbridge-library:
+    ubuntu: ros-iron-rosbridge-library
+rosbridge-msgs:
+    ubuntu: ros-iron-rosbridge-msgs
+rosbridge-server:
+    ubuntu: ros-iron-rosbridge-server
+rosbridge-suite:
+    ubuntu: ros-iron-rosbridge-suite
+rosbridge-test-msgs:
+    ubuntu: ros-iron-rosbridge-test-msgs
+ros-gz-bridge:
+    ubuntu: ros-iron-ros-gz-bridge
+ros-gz-interfaces:
+    ubuntu: ros-iron-ros-gz-interfaces
+rosidl-generator-mypy:
+    ubuntu: ros-iron-rosidl-generator-mypy
+rosidl-generator-pydantic:
+    ubuntu: ros-iron-rosidl-generator-pydantic
+septentrio-gnss-driver:
+    ubuntu: ros-iron-septentrio-gnss-driver
+xtypes:
+    ubuntu: ros-iron-xtypes

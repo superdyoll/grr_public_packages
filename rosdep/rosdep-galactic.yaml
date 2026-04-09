@@ -1,0 +1,68 @@
+argparse:
+    ubuntu: ros-galactic-argparse
+canary:
+    ubuntu: ros-galactic-canary
+diagnostic-aggregator:
+    ubuntu: ros-galactic-diagnostic-aggregator
+emuc-b202-dkms:
+    ubuntu: ros-galactic-emuc-b202-dkms
+emuc-b202-utils:
+    ubuntu: ros-galactic-emuc-b202-utils
+foxglove-bridge:
+    ubuntu: ros-galactic-foxglove-bridge
+generate-parameter-library:
+    ubuntu: ros-galactic-generate-parameter-library
+generate-parameter-library-example:
+    ubuntu: ros-galactic-generate-parameter-library-example
+generate-parameter-library-py:
+    ubuntu: ros-galactic-generate-parameter-library-py
+generate-parameter-module-example:
+    ubuntu: ros-galactic-generate-parameter-module-example
+hydrodynamics:
+    ubuntu: ros-galactic-hydrodynamics
+is-core:
+    ubuntu: ros-galactic-is-core
+is-ros2:
+    ubuntu: ros-galactic-is-ros2
+is-ros2-mix-generator:
+    ubuntu: ros-galactic-is-ros2-mix-generator
+launch-ext:
+    ubuntu: ros-galactic-launch-ext
+libxmlmm:
+    ubuntu: ros-galactic-libxmlmm
+parameter-traits:
+    ubuntu: ros-galactic-parameter-traits
+pwmdriver:
+    ubuntu: ros-galactic-pwmdriver
+px4-msgs:
+    ubuntu: ros-galactic-px4-msgs
+rclue-rcutils:
+    ubuntu: ros-galactic-rclue-rcutils
+ros2-bt-utils:
+    ubuntu: ros-galactic-ros2-bt-utils
+rosapi:
+    ubuntu: ros-galactic-rosapi
+rosapi-msgs:
+    ubuntu: ros-galactic-rosapi-msgs
+rosbridge-library:
+    ubuntu: ros-galactic-rosbridge-library
+rosbridge-msgs:
+    ubuntu: ros-galactic-rosbridge-msgs
+rosbridge-server:
+    ubuntu: ros-galactic-rosbridge-server
+rosbridge-suite:
+    ubuntu: ros-galactic-rosbridge-suite
+rosbridge-test-msgs:
+    ubuntu: ros-galactic-rosbridge-test-msgs
+ros-gz-bridge:
+    ubuntu: ros-galactic-ros-gz-bridge
+ros-gz-interfaces:
+    ubuntu: ros-galactic-ros-gz-interfaces
+rosidl-generator-mypy:
+    ubuntu: ros-galactic-rosidl-generator-mypy
+rosidl-generator-pydantic:
+    ubuntu: ros-galactic-rosidl-generator-pydantic
+septentrio-gnss-driver:
+    ubuntu: ros-galactic-septentrio-gnss-driver
+xtypes:
+    ubuntu: ros-galactic-xtypes
