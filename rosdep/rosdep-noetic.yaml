@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-noetic-argparse
-argparse:
-    ubuntu: ros-noetic-argparse
-canary:
-    ubuntu: ros-noetic-canary
 canary:
     ubuntu: ros-noetic-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-noetic-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-noetic-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-noetic-hydrodynamics
 is-core:
     ubuntu: ros-noetic-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-noetic-launch-ext
 libxmlmm:
     ubuntu: ros-noetic-libxmlmm
-libxmlmm:
-    ubuntu: ros-noetic-libxmlmm
 parameter-traits:
     ubuntu: ros-noetic-parameter-traits
 parameter_traits:
     ubuntu: ros-noetic-parameter-traits
-pwmdriver:
-    ubuntu: ros-noetic-pwmdriver
 pwmdriver:
     ubuntu: ros-noetic-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-noetic-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-noetic-ros2-bt-utils
-rosapi:
-    ubuntu: ros-noetic-rosapi
 rosapi:
     ubuntu: ros-noetic-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-noetic-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-noetic-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-noetic-xtypes
 xtypes:
     ubuntu: ros-noetic-xtypes

@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-iron-argparse
-argparse:
-    ubuntu: ros-iron-argparse
-canary:
-    ubuntu: ros-iron-canary
 canary:
     ubuntu: ros-iron-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-iron-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-iron-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-iron-hydrodynamics
 is-core:
     ubuntu: ros-iron-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-iron-launch-ext
 libxmlmm:
     ubuntu: ros-iron-libxmlmm
-libxmlmm:
-    ubuntu: ros-iron-libxmlmm
 parameter-traits:
     ubuntu: ros-iron-parameter-traits
 parameter_traits:
     ubuntu: ros-iron-parameter-traits
-pwmdriver:
-    ubuntu: ros-iron-pwmdriver
 pwmdriver:
     ubuntu: ros-iron-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-iron-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-iron-ros2-bt-utils
-rosapi:
-    ubuntu: ros-iron-rosapi
 rosapi:
     ubuntu: ros-iron-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-iron-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-iron-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-iron-xtypes
 xtypes:
     ubuntu: ros-iron-xtypes

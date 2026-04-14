@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-jazzy-argparse
-argparse:
-    ubuntu: ros-jazzy-argparse
-canary:
-    ubuntu: ros-jazzy-canary
 canary:
     ubuntu: ros-jazzy-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-jazzy-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-jazzy-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-jazzy-hydrodynamics
 is-core:
     ubuntu: ros-jazzy-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-jazzy-launch-ext
 libxmlmm:
     ubuntu: ros-jazzy-libxmlmm
-libxmlmm:
-    ubuntu: ros-jazzy-libxmlmm
 parameter-traits:
     ubuntu: ros-jazzy-parameter-traits
 parameter_traits:
     ubuntu: ros-jazzy-parameter-traits
-pwmdriver:
-    ubuntu: ros-jazzy-pwmdriver
 pwmdriver:
     ubuntu: ros-jazzy-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-jazzy-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-jazzy-ros2-bt-utils
-rosapi:
-    ubuntu: ros-jazzy-rosapi
 rosapi:
     ubuntu: ros-jazzy-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-jazzy-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-jazzy-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-jazzy-xtypes
 xtypes:
     ubuntu: ros-jazzy-xtypes

@@ -2,18 +2,18 @@
 
 set -ev
 
-pushd debian
-
-# Packages & Packages.gz
-dpkg-scanpackages --multiversion . > Packages
-gzip -k -f Packages
-
-# Release, Release.gpg & InRelease
-apt-ftparchive release . > Release
-gpg --default-key "${GPG_KEY_NAME}" -abs -o - Release > Release.gpg
-gpg --default-key "${GPG_KEY_NAME}" --clearsign -o - Release > InRelease
-
-popd
+#pushd debian
+#
+## Packages & Packages.gz
+#dpkg-scanpackages --multiversion . > Packages
+#gzip -k -f Packages
+#
+## Release, Release.gpg & InRelease
+#apt-ftparchive release . > Release
+#gpg --default-key "${GPG_KEY_NAME}" -abs -o - Release > Release.gpg
+#gpg --default-key "${GPG_KEY_NAME}" --clearsign -o - Release > InRelease
+#
+#popd
 
 # Define the target ROS versions
 ROS_VERSIONS=("noetic" "foxy" "galactic" "humble" "iron" "rolling" "jazzy")
@@ -35,8 +35,10 @@ if [ -n "$UNIQUE_NAMES" ]; then
         for PKG in $UNIQUE_NAMES; do
             echo "${PKG}:" >> "$YAML_FILE"
             echo "    ubuntu: ros-${VERSION}-${PKG}" >> "$YAML_FILE"
+        if [ "${PKG//-/_}" != "${PKG}" ]; then
             echo "${PKG//-/_}:" >> "$YAML_FILE"
             echo "    ubuntu: ros-${VERSION}-${PKG}" >> "$YAML_FILE"
+        fi
         done
         
         echo "Successfully generated ${YAML_FILE}"

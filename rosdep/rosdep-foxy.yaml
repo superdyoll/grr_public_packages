@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-foxy-argparse
-argparse:
-    ubuntu: ros-foxy-argparse
-canary:
-    ubuntu: ros-foxy-canary
 canary:
     ubuntu: ros-foxy-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-foxy-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-foxy-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-foxy-hydrodynamics
 is-core:
     ubuntu: ros-foxy-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-foxy-launch-ext
 libxmlmm:
     ubuntu: ros-foxy-libxmlmm
-libxmlmm:
-    ubuntu: ros-foxy-libxmlmm
 parameter-traits:
     ubuntu: ros-foxy-parameter-traits
 parameter_traits:
     ubuntu: ros-foxy-parameter-traits
-pwmdriver:
-    ubuntu: ros-foxy-pwmdriver
 pwmdriver:
     ubuntu: ros-foxy-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-foxy-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-foxy-ros2-bt-utils
-rosapi:
-    ubuntu: ros-foxy-rosapi
 rosapi:
     ubuntu: ros-foxy-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-foxy-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-foxy-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-foxy-xtypes
 xtypes:
     ubuntu: ros-foxy-xtypes

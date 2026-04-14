@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-galactic-argparse
-argparse:
-    ubuntu: ros-galactic-argparse
-canary:
-    ubuntu: ros-galactic-canary
 canary:
     ubuntu: ros-galactic-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-galactic-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-galactic-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-galactic-hydrodynamics
 is-core:
     ubuntu: ros-galactic-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-galactic-launch-ext
 libxmlmm:
     ubuntu: ros-galactic-libxmlmm
-libxmlmm:
-    ubuntu: ros-galactic-libxmlmm
 parameter-traits:
     ubuntu: ros-galactic-parameter-traits
 parameter_traits:
     ubuntu: ros-galactic-parameter-traits
-pwmdriver:
-    ubuntu: ros-galactic-pwmdriver
 pwmdriver:
     ubuntu: ros-galactic-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-galactic-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-galactic-ros2-bt-utils
-rosapi:
-    ubuntu: ros-galactic-rosapi
 rosapi:
     ubuntu: ros-galactic-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-galactic-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-galactic-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-galactic-xtypes
 xtypes:
     ubuntu: ros-galactic-xtypes

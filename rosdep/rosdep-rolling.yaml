@@ -1,9 +1,5 @@
 argparse:
     ubuntu: ros-rolling-argparse
-argparse:
-    ubuntu: ros-rolling-argparse
-canary:
-    ubuntu: ros-rolling-canary
 canary:
     ubuntu: ros-rolling-canary
 diagnostic-aggregator:
@@ -40,8 +36,6 @@ generate_parameter_module_example:
     ubuntu: ros-rolling-generate-parameter-module-example
 hydrodynamics:
     ubuntu: ros-rolling-hydrodynamics
-hydrodynamics:
-    ubuntu: ros-rolling-hydrodynamics
 is-core:
     ubuntu: ros-rolling-is-core
 is_core:
@@ -60,14 +54,10 @@ launch_ext:
     ubuntu: ros-rolling-launch-ext
 libxmlmm:
     ubuntu: ros-rolling-libxmlmm
-libxmlmm:
-    ubuntu: ros-rolling-libxmlmm
 parameter-traits:
     ubuntu: ros-rolling-parameter-traits
 parameter_traits:
     ubuntu: ros-rolling-parameter-traits
-pwmdriver:
-    ubuntu: ros-rolling-pwmdriver
 pwmdriver:
     ubuntu: ros-rolling-pwmdriver
 px4-msgs:
@@ -82,8 +72,6 @@ ros2-bt-utils:
     ubuntu: ros-rolling-ros2-bt-utils
 ros2_bt_utils:
     ubuntu: ros-rolling-ros2-bt-utils
-rosapi:
-    ubuntu: ros-rolling-rosapi
 rosapi:
     ubuntu: ros-rolling-rosapi
 rosapi-msgs:
@@ -130,7 +118,5 @@ septentrio-gnss-driver:
     ubuntu: ros-rolling-septentrio-gnss-driver
 septentrio_gnss_driver:
     ubuntu: ros-rolling-septentrio-gnss-driver
-xtypes:
-    ubuntu: ros-rolling-xtypes
 xtypes:
     ubuntu: ros-rolling-xtypes
