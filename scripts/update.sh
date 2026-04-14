@@ -35,6 +35,8 @@ if [ -n "$UNIQUE_NAMES" ]; then
         for PKG in $UNIQUE_NAMES; do
             echo "${PKG}:" >> "$YAML_FILE"
             echo "    ubuntu: ros-${VERSION}-${PKG}" >> "$YAML_FILE"
+            echo "${PKG//-/_}:" >> "$YAML_FILE"
+            echo "    ubuntu: ros-${VERSION}-${PKG}" >> "$YAML_FILE"
         done
         
         echo "Successfully generated ${YAML_FILE}"
